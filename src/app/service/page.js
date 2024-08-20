@@ -1,8 +1,8 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceCard from "@/components/ServiceCard";
-import Clients from "../Home/Clients";
-import Appoinment from "../Home/Appoinment";
-import Header from "@/components/Header/Header";
+import Breadcrumbs from '@/components/Breadcrumbs';
+import ServiceCard from '@/components/ServiceCard';
+import Clients from '../Home/Clients';
+import Appoinment from '../Home/Appoinment';
+import Header from '@/components/Header/Header';
 
 export default function Service() {
   return (
@@ -17,47 +17,47 @@ export default function Service() {
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
                 icon="icofont icofont-prescription"
-                title="General Treatment"
+                title="GKS Private Mentoring Preparation Basic"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 luctus dictum eros ut imperdiet."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-tooth"
-                title="Teeth Whitening"
+                icon="icofont icofont-prescription"
+                title="GKS Private Mentoring Preparation Pro"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                   luctus dictum eros ut imperdiet."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-heart-alt"
-                title="Heart Surgery"
+                icon="icofont icofont-prescription"
+                title="GKS Mentoring and TOPIK Preparation"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                   luctus dictum eros ut imperdiet."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-listening"
-                title="Ear Treatment"
+                icon="icofont icofont-prescription"
+                title="GKS Mentoring and Preparation Group"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                   luctus dictum eros ut imperdiet."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-eye-alt"
-                title="Vision Problems"
+                icon="icofont icofont-prescription"
+                title="GKS Private Mentoring Preparation"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                   luctus dictum eros ut imperdiet."
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <ServiceCard
-                icon="icofont icofont-blood"
-                title="Blood Transfusion"
+                icon="icofont icofont-prescription"
+                title="GKS Group Mentoring Preparation"
                 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                   luctus dictum eros ut imperdiet."
               />

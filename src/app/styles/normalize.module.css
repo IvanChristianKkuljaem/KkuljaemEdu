@@ -15,7 +15,7 @@ Version:	1.1
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -121,9 +121,9 @@ select {
   text-transform: none;
 }
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -139,17 +139,17 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 legend {
@@ -180,7 +180,7 @@ select,
 optgroup,
 textarea {
   color: #424646;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -229,7 +229,7 @@ address {
 }
 pre {
   background: #eee;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -242,7 +242,7 @@ code,
 kbd,
 tt,
 var {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-size: 0.9375rem;
 }
@@ -323,8 +323,7 @@ Preloader Area CSS
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  -webkit-animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41)
-    infinite;
+  -webkit-animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
   animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
 }
 
@@ -338,8 +337,7 @@ Preloader Area CSS
   top: calc(40% - 21px);
   border-right: 0;
   border-top-color: transparent;
-  -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41)
-    infinite;
+  -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
   animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
 }
 
@@ -373,7 +371,7 @@ Preloader Area CSS
 
 .preloader::before,
 .preloader::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -489,7 +487,7 @@ Preloader Area CSS
   color: #fff;
 }
 .btn:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
@@ -538,7 +536,7 @@ Preloader Area CSS
 }
 .overlay:before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   height: 100%;
@@ -549,7 +547,7 @@ Preloader Area CSS
 }
 /* Bread Crumbs */
 .breadcrumbs {
-  background-image: url("../../../public/img/bread-bg.jpg");
+  background-image: url('../../../public/img/bread-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -711,9 +709,9 @@ table {
 # Forms
 --------------------------------------------------------------*/
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -722,21 +720,21 @@ input[type="submit"] {
   line-height: 1;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
 textarea {
   color: #666;
   border: 1px solid #ccc;
@@ -745,21 +743,21 @@ textarea {
   font-weight: 400;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='number']:focus,
+input[type='tel']:focus,
+input[type='range']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='week']:focus,
+input[type='time']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='color']:focus,
 textarea:focus {
   color: #111;
   font-weight: 400;
@@ -930,7 +928,7 @@ a:active {
 }
 
 /* Do not show the outline on the skip link target. */
-#content[tabindex="-1"]:focus {
+#content[tabindex='-1']:focus {
   outline: 0;
 }
 
@@ -971,7 +969,7 @@ a:active {
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-  content: "";
+  content: '';
   display: table;
   table-layout: fixed;
 }
@@ -1078,17 +1076,17 @@ object {
     -webkit-transform: scale(0.2, 0.2);
     transform: scale(0.2, 0.2);
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
   }
   50% {
     opacity: 0.9;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=90)';
   }
   100% {
     -webkit-transform: scale(0.9, 0.9);
     transform: scale(0.9, 0.9);
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
   }
 }
 @keyframes waves {
@@ -1096,17 +1094,17 @@ object {
     -webkit-transform: scale(0.2, 0.2);
     transform: scale(0.2, 0.2);
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
   }
   50% {
     opacity: 0.9;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=90)';
   }
   100% {
     -webkit-transform: scale(0.9, 0.9);
     transform: scale(0.9, 0.9);
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
   }
 }
 
@@ -1253,7 +1251,7 @@ object {
   right: 0;
   bottom: 0;
   left: 0;
-  content: "";
+  content: '';
   background-color: #fff;
 }
 

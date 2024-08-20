@@ -1,5 +1,6 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Header from '@/components/Header/Header';
+import Link from 'next/link';
 
 export default function Contact() {
   return (
@@ -24,7 +25,7 @@ export default function Contact() {
                   <h2>Contact With Us</h2>
                   <p>If you have any questions please fell free to contact with us.</p>
 
-                  <form className="form" method="post" action="../mail.php">
+                  <form className="form" method="post" action="/mail.php">
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
@@ -53,9 +54,11 @@ export default function Contact() {
                       </div>
                       <div className="col-12">
                         <div className="form-group login-btn">
-                          <button className="btn" type="submit">
-                            Send
-                          </button>
+                          <Link href="/mail-success">
+                            <button className="btn" type="submit">
+                              Send
+                            </button>
+                          </Link>
                         </div>
                         {/* <div className="checkbox">
                           <div className="form-check">
