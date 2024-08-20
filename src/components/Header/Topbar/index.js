@@ -11,7 +11,7 @@ export default function Topbar() {
                 <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="/doctors">Doctors</Link>
+                <Link href="/mentors">Mentors</Link>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>

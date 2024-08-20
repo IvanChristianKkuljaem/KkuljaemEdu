@@ -1,9 +1,5 @@
-import Sliders from "./Sliders";
+import Sliders from './Sliders';
 
 export default function Hero({ sectionName }) {
-  return (
-    <>
-      <Sliders sectionName={sectionName} />
-    </>
-  );
+  return <Sliders sectionName={sectionName} />;
 }

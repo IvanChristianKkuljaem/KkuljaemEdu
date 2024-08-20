@@ -36,17 +36,17 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="#">
-              Universities <i className="icofont-rounded-down"></i>
+              Mentors <i className="icofont-rounded-down"></i>
             </Link>
             <ul className="dropdown">
               <li>
-                <Link className={` ${pathname === '/doctors' ? 'active' : ''}`} href="/doctors">
-                  University
+                <Link className={` ${pathname === '/mentors' ? 'active' : ''}`} href="/mentors">
+                  Mentor
                 </Link>
               </li>
               <li>
-                <Link className={` ${pathname === '/doctor-details' ? 'active' : ''}`} href="/doctor-details">
-                  University Details
+                <Link className={` ${pathname === '/mentor-details' ? 'active' : ''}`} href="/mentor-details">
+                  Mentor Details
                 </Link>
               </li>
             </ul>
