@@ -15,13 +15,13 @@ export default function Schedule() {
                       <i className="fa fa-ambulance"></i>
                     </div>
                     <div className="single-content">
-                      <span>Lorem Amet</span>
+                      <span>Scholarship Package</span>
                       <h4>Emergency Cases</h4>
                       <p>
                         Lorem ipsum sit amet consectetur adipiscing elit.
                         Vivamus et erat in lacus convallis sodales.
                       </p>
-                      <Link href="#">
+                      <Link href="/service">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>
@@ -36,7 +36,7 @@ export default function Schedule() {
                       <i className="icofont-prescription"></i>
                     </div>
                     <div className="single-content">
-                      <span>Fusce Porttitor</span>
+                      <span>Mentoring Program</span>
                       <h4>Doctors Timetable</h4>
                       <p>
                         Lorem ipsum sit amet consectetur adipiscing elit.
@@ -57,7 +57,7 @@ export default function Schedule() {
                       <i className="icofont-ui-clock"></i>
                     </div>
                     <div className="single-content">
-                      <span>Donec luctus</span>
+                      <span>Schedule</span>
                       <h4>Opening Hours</h4>
                       <ul className="time-sidual">
                         <li className="day">
@@ -70,7 +70,7 @@ export default function Schedule() {
                           Monday - Thusday <span>9.00-15.00</span>
                         </li>
                       </ul>
-                      <Link href="#">
+                      <Link href="/contact">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>

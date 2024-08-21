@@ -10,7 +10,7 @@ export default function Testimonial() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="What Our Patients Say About Our Medical Treatments"
+                title="What Our Students Say About Our Education Program"
                 img={SectionImg}
               />
             </div>

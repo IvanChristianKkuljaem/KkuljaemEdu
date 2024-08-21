@@ -5,11 +5,18 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-import ClientImg1 from "../../../../public/img/client1.png";
-import ClientImg2 from "../../../../public/img/client2.png";
-import ClientImg3 from "../../../../public/img/client3.png";
-import ClientImg4 from "../../../../public/img/client4.png";
-import ClientImg5 from "../../../../public/img/client5.png";
+import ClientImg1 from "../../../../public/img/kkuljaem/01. SKKU.png";
+import ClientImg2 from "../../../../public/img/kkuljaem/02. Hanyang.png";
+import ClientImg3 from "../../../../public/img/kkuljaem/03. Hankuk.png";
+import ClientImg4 from "../../../../public/img/kkuljaem/04 Kyung Hee.png";
+import ClientImg5 from "../../../../public/img/kkuljaem/05. Sunchon.png";
+import ClientImg6 from "../../../../public/img/kkuljaem/06. Ajou.png";
+import ClientImg7 from "../../../../public/img/kkuljaem/07. Sangmyung.png";
+import ClientImg8 from "../../../../public/img/kkuljaem/08. Wonkwang.png";
+import ClientImg9 from "../../../../public/img/kkuljaem/09. Solbridge.png";
+import ClientImg10 from "../../../../public/img/kkuljaem/10. Dankook.png";
+import ClientImg11 from "../../../../public/img/kkuljaem/11. Hong Ik.png";
+import ClientImg12 from "../../../../public/img/kkuljaem/12. Mokpo.png";
 
 export default function Sliders() {
   const [clientSliders, setclientSliders] = useState([
@@ -35,7 +42,31 @@ export default function Sliders() {
     },
     {
       id: "slider6",
-      img: ClientImg3,
+      img: ClientImg6,
+    },
+    {
+      id: "slider7",
+      img: ClientImg7,
+    },
+    {
+      id: "slider8",
+      img: ClientImg8,
+    },
+    {
+      id: "slider9",
+      img: ClientImg9,
+    },
+    {
+      id: "slider10",
+      img: ClientImg10,
+    },
+    {
+      id: "slider11",
+      img: ClientImg11,
+    },
+    {
+      id: "slider12",
+      img: ClientImg12,
     },
   ]);
 

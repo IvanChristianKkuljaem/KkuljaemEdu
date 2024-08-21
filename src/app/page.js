@@ -29,11 +29,11 @@ export default function Home() {
       <Services />
       <Testimonial />
       <Departments />
-      <Pricing />
+      {/* <Pricing /> */}
       <Team />
       <Blog />
       <Clients />
-      <Appoinment />
+      {/* <Appoinment /> */}
     </>
   );
 }

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Links() {
   return (
@@ -31,16 +31,16 @@ export default function Links() {
                   Universities
                 </Link>
               </li>
-            </ul>
-          </div>
-          <div className="col-lg-6 col-md-6 col-12">
-            <ul>
               <li>
-                <Link href="#">
+                <Link href="/mentors">
                   <i className="fa fa-caret-right" aria-hidden="true"></i>
                   Mentors
                 </Link>
               </li>
+            </ul>
+          </div>
+          <div className="col-lg-6 col-md-6 col-12">
+            <ul>
               <li>
                 <Link href="/testimonials">
                   <i className="fa fa-caret-right" aria-hidden="true"></i>
@@ -56,6 +56,18 @@ export default function Links() {
                 <Link href="/contact">
                   <i className="fa fa-caret-right" aria-hidden="true"></i>
                   Contact Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms">
+                  <i className="fa fa-caret-right" aria-hidden="true"></i>
+                  T&C
+                </Link>
+              </li>
+              <li>
+                <Link href="/policy">
+                  <i className="fa fa-caret-right" aria-hidden="true"></i>
+                  Privacy Policy
                 </Link>
               </li>
             </ul>

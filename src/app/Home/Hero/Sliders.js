@@ -1,57 +1,67 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 
-import HeroBg1 from '../../../../public/img/kkuljaem/Slider1.jpg';
-import HeroBg2 from '../../../../public/img/kkuljaem/Slider2.jpg';
-import HeroBg3 from '../../../../public/img/kkuljaem/Slider3.jpg';
+// import HeroBg1 from "../../../../public/img/kkuljaem/Slider1.jpg";
+// import HeroBg2 from "../../../../public/img/kkuljaem/Slider2.jpg";
+// import HeroBg3 from "../../../../public/img/kkuljaem/Slider3.jpg";
+
+import HeroBg1 from "../../../../public/img/slider.jpg";
+import HeroBg2 from "../../../../public/img/slider2.jpg";
+import HeroBg3 from "../../../../public/img/slider3.jpg";
 
 export default function Sliders(props) {
   const { sectionName } = props;
 
   const [heroSliders, setheroSliders] = useState([
     {
-      id: 'slider1',
+      id: "slider1",
       bgImg: HeroBg1,
-      title: 'We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>',
-      subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ',
+      title:
+        "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
+      subTitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
       button: {
-        text: 'Get Consultation',
-        link: '/appoinment',
+        text: "Get Consultation",
+        link: "/appoinment",
       },
       button2: {
-        text: 'Learn More',
-        link: '/about',
+        text: "Learn More",
+        link: "/about",
       },
     },
     {
-      id: 'slider2',
+      id: "slider2",
       bgImg: HeroBg2,
-      title: 'We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>',
-      subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ',
+      title:
+        "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
+      subTitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
       button: {
-        text: 'Get Consultation',
-        link: '/appoinment',
+        text: "Get Consultation",
+        link: "/appoinment",
       },
       button2: {
-        text: 'About Us',
-        link: '/about',
+        text: "About Us",
+        link: "/about",
       },
     },
     {
-      id: 'slider3',
+      id: "slider3",
       bgImg: HeroBg3,
-      title: 'We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>',
-      subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ',
+      title:
+        "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
+      subTitle:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
       button: {
-        text: 'Get Consultation',
-        link: '/appoinment',
+        text: "Get Consultation",
+        link: "/appoinment",
       },
       button2: {
-        text: 'Contact Now',
-        link: '/contact',
+        text: "Contact Now",
+        link: "/contact",
       },
     },
   ]);
@@ -59,13 +69,13 @@ export default function Sliders(props) {
   return (
     <>
       {/* <!-- Slider Area --> */}
-      <section className={sectionName ? sectionName : 'slider'}>
+      <section className={sectionName ? sectionName : "slider"}>
         <Swiper
           autoplay={{ delay: 4000 }}
           modules={[Navigation, Autoplay]}
           navigation={{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           }}
           className="hero-slider"
         >
@@ -74,7 +84,7 @@ export default function Sliders(props) {
               className="single-slider"
               style={{
                 backgroundImage: `url(${singleSlider.bgImg.src})`,
-                backgroundSize: '100% 100%',
+                // backgroundSize: "100% 100%",
               }}
               key={singleSlider.id}
             >
@@ -97,7 +107,10 @@ export default function Sliders(props) {
                         <a href={singleSlider?.button.link} className="btn">
                           {singleSlider?.button.text}
                         </a>
-                        <a href={singleSlider?.button2.link} className="btn primary">
+                        <a
+                          href={singleSlider?.button2.link}
+                          className="btn primary"
+                        >
                           {singleSlider?.button2.text}
                         </a>
                       </div>
