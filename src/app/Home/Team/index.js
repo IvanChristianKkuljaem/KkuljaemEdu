@@ -34,7 +34,7 @@ export default function Team() {
         </div> */}
         <div className="row">
           <div className="col-lg-4 col-md-6 col-12">
-            <TeamCard tilt="tilt-disable" image={TeamImg1} name="Hanni Pham" desgination="Ditto" />
+            <TeamCard tilt="tilt-disable" image={TeamImg1} name="Pham Hanni" desgination="Ditto" />
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <TeamCard tilt="tilt-disable" image={TeamImg2} name="Kang Haerin" desgination="Supernatural" />

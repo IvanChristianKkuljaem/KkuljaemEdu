@@ -1,48 +1,48 @@
-"use client";
+'use client';
 
-import Image from "next/image";
+import Image from 'next/image';
 
-import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Autoplay } from 'swiper/modules';
 
-import TestimonialImg1 from "../../../../public/img/kkuljaem/Hanni-Circle.png";
-import TestimonialImg2 from "../../../../public/img/kkuljaem/Haerin-Circle.png";
-import TestimonialImg3 from "../../../../public/img/kkuljaem/Danielle-Circle.png";
-import TestimonialImg4 from "../../../../public/img/kkuljaem/Minji-Circle.png";
-import TestimonialImg5 from "../../../../public/img/kkuljaem/Hyein-Circle.png";
+import TestimonialImg1 from '../../../../public/img/kkuljaem/Hanni-Circle.png';
+import TestimonialImg2 from '../../../../public/img/kkuljaem/Haerin-Circle.png';
+import TestimonialImg3 from '../../../../public/img/kkuljaem/Danielle-Circle.png';
+import TestimonialImg4 from '../../../../public/img/kkuljaem/Minji-Circle.png';
+import TestimonialImg5 from '../../../../public/img/kkuljaem/Hyein-Circle.png';
 
 export default function Sliders() {
   const [testimonialSlider, settestimonialSlider] = useState([
     {
-      id: "slider1",
+      id: 'slider1',
       img: TestimonialImg1,
       desc: "Stay in the middle. Like you a little. Don't wanna riddle",
-      name: "Hanni Pham",
+      name: 'Pham Hanni',
     },
     {
-      id: "slider2",
+      id: 'slider2',
       img: TestimonialImg2,
       desc: "We can go wherever you like. Baby say the words then i'm down",
-      name: "Kang Haerin",
+      name: 'Kang Haerin',
     },
     {
-      id: "slider3",
+      id: 'slider3',
       img: TestimonialImg3,
       desc: "Cause i'm not gonna be the one who get hurt",
-      name: "Danielle Marsh",
+      name: 'Danielle Marsh',
     },
     {
-      id: "slider4",
+      id: 'slider4',
       img: TestimonialImg4,
       desc: "And don't you know how sweet it taste. How sweet it taste",
-      name: "Kim Minji",
+      name: 'Kim Minji',
     },
     {
-      id: "slider5",
+      id: 'slider5',
       img: TestimonialImg5,
       desc: "I'm super shy super shy but wait a minute while I make you mine",
-      name: "Lee Hyein",
+      name: 'Lee Hyein',
     },
   ]);
 
