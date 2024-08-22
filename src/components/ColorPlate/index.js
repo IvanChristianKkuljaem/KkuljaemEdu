@@ -16,7 +16,8 @@ export default function ColorPlate() {
     "#85BA46",
     "#273C75",
     "#FD7272",
-    "#BADC58",
+    // "#BADC58",
+    "#379ed8",
     "#44CE6F",
   ];
 
