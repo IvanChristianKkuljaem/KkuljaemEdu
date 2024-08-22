@@ -1,8 +1,7 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceCard from "@/components/ServiceCard";
-import Clients from "../Home/Clients";
-import Appoinment from "../Home/Appoinment";
-import Header from "@/components/Header/Header";
+import Breadcrumbs from '@/components/Breadcrumbs';
+import ServiceCard from '@/components/ServiceCard';
+import Clients from '../Home/Clients';
+import Header from '@/components/Header/Header';
 
 export default function Service() {
   return (
