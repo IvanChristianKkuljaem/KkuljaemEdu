@@ -9,8 +9,8 @@ export default function Portfolio() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="We Maintain Cleanliness Rules Inside Our Hospital"
-                desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
+                title="We Always Make Events for Education"
+                desc="These are our past educational events for students"
               />
             </div>
           </div>

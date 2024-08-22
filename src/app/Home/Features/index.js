@@ -11,7 +11,7 @@ export default function Features(props) {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="We Are Always Ready to Help You & Your Family"
+                title="We Are Always Ready to Help You Aciehve Your Dream University"
                 desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
               />
             </div>
@@ -20,16 +20,16 @@ export default function Features(props) {
             <div className="col-lg-4 col-12">
               <FeatureCard
                 cardClass="single-features"
-                icon="icofont icofont-ambulance-cross"
-                title="Emergency Help"
+                icon="icofont icofont-google-talk"
+                title="Consult With Us"
                 desc="Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate."
               />
             </div>
             <div className="col-lg-4 col-12">
               <FeatureCard
                 cardClass="single-features"
-                icon="icofont icofont-medical-sign-alt"
-                title="Enriched Pharmecy"
+                icon="icofont icofont-university"
+                title="Apply to Your Dream University"
                 desc="Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
                 vulputate."
               />
@@ -37,8 +37,8 @@ export default function Features(props) {
             <div className="col-lg-4 col-12">
               <FeatureCard
                 cardClass="single-features last"
-                icon="icofont icofont-stethoscope"
-                title="Medical Treatment"
+                icon="icofont icofont-certificate-alt-1"
+                title="100% Guaranteed Acceptance"
                 desc="Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam
                 vulputate."
               />

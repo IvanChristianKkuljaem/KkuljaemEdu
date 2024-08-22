@@ -4,13 +4,13 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 
-// import HeroBg1 from "../../../../public/img/kkuljaem/Slider1.jpg";
-// import HeroBg2 from "../../../../public/img/kkuljaem/Slider2.jpg";
-// import HeroBg3 from "../../../../public/img/kkuljaem/Slider3.jpg";
+import HeroBg1 from "../../../../public/img/kkuljaem/Slider1.jpg";
+import HeroBg2 from "../../../../public/img/kkuljaem/Slider2.jpg";
+import HeroBg3 from "../../../../public/img/kkuljaem/Slider3.jpg";
 
-import HeroBg1 from "../../../../public/img/slider.jpg";
-import HeroBg2 from "../../../../public/img/slider2.jpg";
-import HeroBg3 from "../../../../public/img/slider3.jpg";
+// import HeroBg1 from "../../../../public/img/slider.jpg";
+// import HeroBg2 from "../../../../public/img/slider2.jpg";
+// import HeroBg3 from "../../../../public/img/slider3.jpg";
 
 export default function Sliders(props) {
   const { sectionName } = props;
@@ -19,10 +19,9 @@ export default function Sliders(props) {
     {
       id: "slider1",
       bgImg: HeroBg1,
-      title:
-        "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
+      title: "Why Study in <span>South Korea?</span>",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
+        "Korea Selatan menawarkan pendidikan berkualitas tinggi dengan universitas top seperti <span>Seoul National University, KAIST, Sung Kyun Kwan University, Hanyang University</span> dan <span>Yonsei University</span>, yang semuanya menduduki peringkat tinggi dalam QS World Rankings. Ini <span>memberikan peluang besar dalam bidang penelitian, teknologi, dan inovasi.</span>",
       button: {
         text: "Get Consultation",
         link: "/appoinment",
@@ -35,10 +34,9 @@ export default function Sliders(props) {
     {
       id: "slider2",
       bgImg: HeroBg2,
-      title:
-        "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
+      title: "Why Study in <span>South Korea?</span>",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
+        "Tidak hanya peluang kuliah, namun juga peluang beasiswa seperti GKS, siswa internasional bisa mengeksplorasi budaya Korea sambil mendapatkan pendidikan kelas dunia. Universitas-universitas di Korea Selatan juga menawarkan lingkungan kampus yang dinamis dan kesempatan untuk membangun jaringan internasional.",
       button: {
         text: "Get Consultation",
         link: "/appoinment",
@@ -54,7 +52,7 @@ export default function Sliders(props) {
       title:
         "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
       subTitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque,<br/>faucibus libero eu, gravida quam. ",
+        "Kami telah berhasil membantu dbanyak siswa untuk berangkat dan belajar di Korea Selatan, dan terus mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk studi ke Korea Selatan. ",
       button: {
         text: "Get Consultation",
         link: "/appoinment",

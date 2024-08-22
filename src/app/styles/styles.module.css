@@ -995,7 +995,7 @@ body {
 	Start Call to action CSS
 =================================*/
 .call-action {
-  background-image: url("../../../public/img/call-bg.jpg");
+  background-image: url("../../../public/img/event/KONKUK.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1317,7 +1317,7 @@ body {
 	Start Testimonials CSS
 ===============================*/
 .testimonials {
-  background-image: url("../../../public/img/testi-bg.jpg");
+  background-image: url("../../../public/img/event/HANYANG.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1683,7 +1683,7 @@ body {
   transform: none !important;
 }
 .team {
-  background-image: url("../../../public/img/testi-bg.jpg");
+  background-image: url("../../../public/img/event/HANYANG.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1952,6 +1952,7 @@ body {
 }
 .blog .single-news img {
   width: 100%;
+  height: 200px;
   margin: 0;
   padding: 0;
   -webkit-transition: all 0.4s ease;
@@ -1970,6 +1971,7 @@ body {
   padding: 30px;
   left: 0;
   z-index: 0;
+  min-height: 255px;
 }
 .blog .single-news .news-content:before {
   position: absolute;

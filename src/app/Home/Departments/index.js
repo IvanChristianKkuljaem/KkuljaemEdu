@@ -11,7 +11,7 @@ export default function Departments() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="We Offer Different Departments To Diagnose Your Diseases"
+                title="We Offer Other Services for You"
                 img={SectiomImg}
               />
             </div>

@@ -1,4 +1,4 @@
-import FunfactCard from '@/components/FunfactCard';
+import FunfactCard from "@/components/FunfactCard";
 
 export default function Funfact() {
   return (
@@ -6,16 +6,32 @@ export default function Funfact() {
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-12">
-            <FunfactCard icon="icofont icofont-home" number="138" desc="University Partners" />
+            <FunfactCard
+              icon="icofont icofont-home"
+              number="138"
+              desc="University & Community Partners"
+            />
           </div>
           <div className="col-lg-3 col-md-6 col-12">
-            <FunfactCard icon="icofont icofont-user-alt-3" number="62" desc="Specialist Mentors" />
+            <FunfactCard
+              icon="icofont icofont-user-alt-3"
+              number="62"
+              desc="Specialist Mentors"
+            />
           </div>
           <div className="col-lg-3 col-md-6 col-12">
-            <FunfactCard icon="icofont-simple-smile" number="1124" desc="Graduated Students" />
+            <FunfactCard
+              icon="icofont-simple-smile"
+              number="1124"
+              desc="Graduated Students"
+            />
           </div>
           <div className="col-lg-3 col-md-6 col-12">
-            <FunfactCard icon="icofont icofont-table" number="4" desc="Years of Experience" />
+            <FunfactCard
+              icon="icofont icofont-table"
+              number="4"
+              desc="Years of Experience"
+            />
           </div>
         </div>
       </div>

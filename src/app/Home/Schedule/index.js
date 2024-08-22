@@ -15,12 +15,9 @@ export default function Schedule() {
                       <i className="fa fa-ambulance"></i>
                     </div>
                     <div className="single-content">
-                      <span>Scholarship Package</span>
-                      <h4>Emergency Cases</h4>
-                      <p>
-                        Lorem ipsum sit amet consectetur adipiscing elit.
-                        Vivamus et erat in lacus convallis sodales.
-                      </p>
+                      <span>Scholarship Program</span>
+                      <h4>Preparation</h4>
+                      <p>Konsultasi Unlimited dengan Edu Consultant expert</p>
                       <Link href="/service">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
@@ -36,12 +33,9 @@ export default function Schedule() {
                       <i className="icofont-prescription"></i>
                     </div>
                     <div className="single-content">
-                      <span>Mentoring Program</span>
-                      <h4>Doctors Timetable</h4>
-                      <p>
-                        Lorem ipsum sit amet consectetur adipiscing elit.
-                        Vivamus et erat in lacus convallis sodales.
-                      </p>
+                      <span>Kkuljaem Edu</span>
+                      <h4>Services</h4>
+                      <p>Konsultasi via zoom dengan pihak Universitas Korea</p>
                       <Link href="#">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
@@ -61,14 +55,14 @@ export default function Schedule() {
                       <h4>Opening Hours</h4>
                       <ul className="time-sidual">
                         <li className="day">
-                          Monday - Fridayp <span>8.00-20.00</span>
+                          Monday - Friday <span>10.00-18.00</span>
                         </li>
                         <li className="day">
-                          Saturday <span>9.00-18.30</span>
+                          Saturday, Sunday <span>Closed</span>
                         </li>
-                        <li className="day">
-                          Monday - Thusday <span>9.00-15.00</span>
-                        </li>
+                        {/* <li className="day">
+                          Sunday <span>Closed</span>
+                        </li> */}
                       </ul>
                       <Link href="/contact">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>

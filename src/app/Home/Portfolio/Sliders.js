@@ -5,12 +5,13 @@ import Link from "next/link";
 
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
-import PortfolioImg1 from "../../../../public/img/pf1.jpg";
-import PortfolioImg2 from "../../../../public/img/pf2.jpg";
-import PortfolioImg3 from "../../../../public/img/pf3.jpg";
-import PortfolioImg4 from "../../../../public/img/pf4.jpg";
+import PortfolioImg1 from "../../../../public/img/event/event1.jpg";
+import PortfolioImg2 from "../../../../public/img/event/event2.jpg";
+import PortfolioImg3 from "../../../../public/img/event/event3.jpg";
+import PortfolioImg4 from "../../../../public/img/event/event4.jpg";
+import PortfolioImg5 from "../../../../public/img/event/event5.jpg";
 
 export default function Sliders() {
   const [portfolioSlider, setportfolioSlider] = useState([
@@ -32,7 +33,7 @@ export default function Sliders() {
     },
     {
       id: "slider5",
-      img: PortfolioImg2,
+      img: PortfolioImg5,
     },
   ]);
 
@@ -65,7 +66,13 @@ export default function Sliders() {
       >
         {portfolioSlider.map((singleSlider) => (
           <SwiperSlide className="single-pf" key={singleSlider.id}>
-            <Image src={singleSlider.img} alt="#" width={320} height={252} />
+            <Image
+              src={singleSlider.img}
+              alt="#"
+              width={320}
+              height={252}
+              style={{ minWidth: "320px", minHeight: "292px" }}
+            />
             <Link href="/portfolio-details" className="btn">
               View Details
             </Link>
