@@ -19,110 +19,110 @@ export default function FaqMain() {
   // Define FAQ data
   const faqData = [
     {
-      category: "Dental Care",
+      category: "Kkuljaem",
       questions: [
         {
           id: "1",
-          question: "What type of toothbrush and toothpaste should I use?",
+          question: "What is Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?",
+            "Kkuljaem Korean adalah les Bahasa Korea online yang didirikan oleh Bandung Oppa (Han Jongdae). Kkuljaem Korean sudah memiliki lebih dari 2000 murid semenjak awal berdiri dan sudah meluluskan sekitar 400 murid. Dengan konsep belajar menyenangkan dan fleksibel, Kkuljaem Korean memiliki visi untuk menjadi les bahasa Korea online terbaik bagi seluruh kalangan. Untuk menjadi yang terbaik, Kkuljaem Korean menyediakan beragam kelas dan jasa mengajar yang berkualitas dengan harga terjangkau..",
         },
         {
           id: "2",
-          question: "Do I really need to floss?",
+          question: "How do I create an account on Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?",
+            "You can create an account by visiting the Kkuljaem homepage and clicking on the 'Sign Up' button or by clicking on the 'Sign Up' button at the top navigation bar. You can sign up using your email address.",
         },
         {
           id: "3",
-          question: "What are early signs of dental trouble?",
+          question: "How is this different from the other Edu Tech?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?",
+            "There is no need for any karma points or something. You can get started just by signing up! Plus, you won't get banned or restricted without any reason. If you do get banned (which we hope not), we will tell you the reason.",
         },
         {
           id: "4",
-          question: "Why do I need dental test?",
+          question: "Is there any minimum points required to post on Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?",
+            "No. There are no points required for you to post and interact on Kkuljaem.",
         },
         {
           id: "5",
-          question: "How do fillings work?",
+          question: "Who moderates Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?",
+            "There are no moderators. You have the liberty to engage on Kkuljaem.",
         },
       ],
     },
     {
-      category: "Cardiology",
+      category: "Kkuljaem Education",
       questions: [
         {
           id: "6",
-          question: "What is Cardiologist?",
+          question: "What is Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro laboriosam magni labore quaerat, aspernatur iusto error ducimus adipisci, et corporis recusandae illum tenetur hic? Earum excepturi porro fuga ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus ipsa accusantium saepe dolorem a mollitia tempora consequatur totam modi pariatur nulla, aspernatur dolore consequuntur temporibus unde minima repellendus laboriosam.",
+            "Kkuljaem Korean adalah les Bahasa Korea online yang didirikan oleh Bandung Oppa (Han Jongdae). Kkuljaem Korean sudah memiliki lebih dari 2000 murid semenjak awal berdiri dan sudah meluluskan sekitar 400 murid. Dengan konsep belajar menyenangkan dan fleksibel, Kkuljaem Korean memiliki visi untuk menjadi les bahasa Korea online terbaik bagi seluruh kalangan. Untuk menjadi yang terbaik, Kkuljaem Korean menyediakan beragam kelas dan jasa mengajar yang berkualitas dengan harga terjangkau..",
         },
         {
           id: "7",
-          question: "What is a Cardiothoracic surgeon?",
+          question: "How do I create an account on Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro laboriosam magni labore quaerat, aspernatur iusto error ducimus adipisci, et corporis recusandae illum tenetur hic? Earum excepturi porro fuga ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus ipsa accusantium saepe dolorem a mollitia tempora consequatur totam modi pariatur nulla, aspernatur dolore consequuntur temporibus unde minima repellendus laboriosam.",
+            "You can create an account by visiting the Kkuljaem homepage and clicking on the 'Sign Up' button or by clicking on the 'Sign Up' button at the top navigation bar. You can sign up using your email address.",
         },
         {
           id: "8",
-          question: "How does a stress test work?",
+          question: "How is this different from the other Edu Tech?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro laboriosam magni labore quaerat, aspernatur iusto error ducimus adipisci, et corporis recusandae illum tenetur hic? Earum excepturi porro fuga ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus ipsa accusantium saepe dolorem a mollitia tempora consequatur totam modi pariatur nulla, aspernatur dolore consequuntur temporibus unde minima repellendus laboriosam.",
+            "There is no need for any karma points or something. You can get started just by signing up! Plus, you won't get banned or restricted without any reason. If you do get banned (which we hope not), we will tell you the reason.",
         },
         {
           id: "9",
-          question: "Are cardiopulmonary problems hereditary?",
+          question: "Is there any minimum points required to post on Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro laboriosam magni labore quaerat, aspernatur iusto error ducimus adipisci, et corporis recusandae illum tenetur hic? Earum excepturi porro fuga ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus ipsa accusantium saepe dolorem a mollitia tempora consequatur totam modi pariatur nulla, aspernatur dolore consequuntur temporibus unde minima repellendus laboriosam.",
+            "No. There are no points required for you to post and interact on Kkuljaem.",
         },
         {
           id: "10",
-          question: "Do cardiac tests hurt?",
+          question: "Who moderates Kkuljaem?",
           answer:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro laboriosam magni labore quaerat, aspernatur iusto error ducimus adipisci, et corporis recusandae illum tenetur hic? Earum excepturi porro fuga ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus ipsa accusantium saepe dolorem a mollitia tempora consequatur totam modi pariatur nulla, aspernatur dolore consequuntur temporibus unde minima repellendus laboriosam.",
+            "There are no moderators. You have the liberty to engage on Kkuljaem.",
         },
       ],
     },
-    {
-      category: "Diagnosis",
-      questions: [
-        {
-          id: "11",
-          question: "What do we know about diagnostic error?",
-          answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
-        },
-        {
-          id: "12",
-          question: "How often does it happen?",
-          answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
-        },
-        {
-          id: "13",
-          question: "What is the cause of diagnostic error?",
-          answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
-        },
-        {
-          id: "14",
-          question: "What are the obstacles to accurate diagnosis?",
-          answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
-        },
-        {
-          id: "15",
-          question: "When is a formal diagnosis necessary?",
-          answer:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
-        },
-      ],
-    },
+    // {
+    //   category: "Diagnosis",
+    //   questions: [
+    //     {
+    //       id: "11",
+    //       question: "What do we know about diagnostic error?",
+    //       answer:
+    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
+    //     },
+    //     {
+    //       id: "12",
+    //       question: "How often does it happen?",
+    //       answer:
+    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
+    //     },
+    //     {
+    //       id: "13",
+    //       question: "What is the cause of diagnostic error?",
+    //       answer:
+    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
+    //     },
+    //     {
+    //       id: "14",
+    //       question: "What are the obstacles to accurate diagnosis?",
+    //       answer:
+    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
+    //     },
+    //     {
+    //       id: "15",
+    //       question: "When is a formal diagnosis necessary?",
+    //       answer:
+    //         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quis modi ullam amet debitis libero veritatis enim repellat optio natus eum delectus deserunt, odit expedita eos molestiae ipsa totam quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quos mollitia voluptatum aliquam repellendus similique iure fuga aspernatur amet odit! At vitae dicta excepturi quasi? Veritatis, pariatur excepturi! Illum, ut?3",
+    //     },
+    //   ],
+    // },
   ];
 
   return (

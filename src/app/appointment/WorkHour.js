@@ -6,7 +6,7 @@ export default function WorkHour() {
   const [workHour, setworkHour] = useState([
     {
       id: "item1",
-      day: "Monday - Fridayp",
+      day: "Monday - Friday",
       time: "8.00-20.00",
     },
     {
@@ -21,7 +21,7 @@ export default function WorkHour() {
     },
     {
       id: "item4",
-      day: "Monday - Fridayp",
+      day: "Monday - Friday",
       time: "8.00-20.00",
     },
     {
@@ -36,7 +36,7 @@ export default function WorkHour() {
     },
     {
       id: "item7",
-      day: " Monday - Fridayp",
+      day: " Monday - Friday",
       time: "8.00-20.00",
     },
     {

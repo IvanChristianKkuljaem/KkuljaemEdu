@@ -26,9 +26,9 @@ export default function Links() {
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="/pricing">
                   <i className="fa fa-caret-right" aria-hidden="true"></i>
-                  Universities
+                  Pricing
                 </Link>
               </li>
               <li>

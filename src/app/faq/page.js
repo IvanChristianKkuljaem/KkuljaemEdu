@@ -7,7 +7,7 @@ export default function Faq() {
     <>
       <Header />
 
-      <Breadcrumbs title="Frequently Asked Questions" menuText="Faq" />
+      <Breadcrumbs title="Frequently Asked Questions" menuText="FAQ" />
       <FaqMain />
     </>
   );

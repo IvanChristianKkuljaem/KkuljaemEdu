@@ -6,7 +6,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 
 import HeroBg1 from "../../../../public/img/kkuljaem/Slider1.jpg";
 import HeroBg2 from "../../../../public/img/kkuljaem/Slider2.jpg";
-import HeroBg3 from "../../../../public/img/kkuljaem/Slider3.jpg";
+import HeroBg3 from "../../../../public/img/blog/Slider3.jpg";
 
 // import HeroBg1 from "../../../../public/img/slider.jpg";
 // import HeroBg2 from "../../../../public/img/slider2.jpg";
@@ -24,7 +24,7 @@ export default function Sliders(props) {
         "Korea Selatan menawarkan pendidikan berkualitas tinggi dengan universitas top seperti <span>Seoul National University, KAIST, Sung Kyun Kwan University, Hanyang University</span> dan <span>Yonsei University</span>, yang semuanya menduduki peringkat tinggi dalam QS World Rankings. Ini <span>memberikan peluang besar dalam bidang penelitian, teknologi, dan inovasi.</span>",
       button: {
         text: "Get Consultation",
-        link: "/appoinment",
+        link: "https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0",
       },
       button2: {
         text: "Learn More",

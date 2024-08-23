@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import BlogImg1 from "../../../public/img/blog-sidebar1.jpg";
-import BlogImg2 from "../../../public/img/blog-sidebar2.jpg";
-import BlogImg3 from "../../../public/img/blog-sidebar3.jpg";
+// import BlogImg1 from "../../../public/img/blog-sidebar1.jpg";
+// import BlogImg2 from "../../../public/img/blog-sidebar2.jpg";
+// import BlogImg3 from "../../../public/img/blog-sidebar3.jpg";
+import BlogImg1 from "../../../public/img/event/beasiswa.jpg";
+import BlogImg2 from "../../../public/img/blog/Blog2.jpg";
+import BlogImg3 from "../../../public/img/event/istilah.jpg";
 
 export default function BlogSidebar() {
   return (
@@ -22,19 +25,19 @@ export default function BlogSidebar() {
           <h3 className="title">Blog Categories</h3>
           <ul className="categor-list">
             <li>
-              <Link href="#">Men&apos;s Apparel</Link>
+              <Link href="#">Beasiswa Korea</Link>
             </li>
             <li>
-              <Link href="#">Women&apos;s Apparel</Link>
+              <Link href="#">Study Abroad</Link>
             </li>
             <li>
-              <Link href="#">Bags Collection</Link>
+              <Link href="#">Seminar Offline</Link>
             </li>
             <li>
-              <Link href="#">Accessories</Link>
+              <Link href="#">Webinar</Link>
             </li>
             <li>
-              <Link href="#">Sun Glasses</Link>
+              <Link href="#">Consultation</Link>
             </li>
           </ul>
         </div>
@@ -48,17 +51,17 @@ export default function BlogSidebar() {
             </div>
             <div className="content">
               <h5>
-                <Link href="#">We have annnocuced our new product.</Link>
+                <Link href="#">Pengumuman Beasiswa KGSP Graduate 2024</Link>
               </h5>
               <ul className="comment">
                 <li>
                   <i className="fa fa-calendar" aria-hidden="true"></i>
-                  Jan 11, 2020
+                  22 Aug, 2024
                 </li>
-                <li>
+                {/* <li>
                   <i className="fa fa-commenting-o" aria-hidden="true"></i>
                   35
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -69,17 +72,20 @@ export default function BlogSidebar() {
             </div>
             <div className="content">
               <h5>
-                <Link href="#">Top five way for solving teeth problems.</Link>
+                <Link href="#">
+                  Kuliah jurusan seni di Korea selatan dengan beasiswa KARTS
+                  2024
+                </Link>
               </h5>
               <ul className="comment">
                 <li>
                   <i className="fa fa-calendar" aria-hidden="true"></i>
-                  Mar 05, 2019
+                  15 Jul, 2024
                 </li>
-                <li>
+                {/* <li>
                   <i className="fa fa-commenting-o" aria-hidden="true"></i>
                   59
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -90,17 +96,20 @@ export default function BlogSidebar() {
             </div>
             <div className="content">
               <h5>
-                <Link href="#">We provide highly business soliutions.</Link>
+                <Link href="#">
+                  50+ Istilah Ini Dapat Mempercepat Persiapan Berkas Pendaftaran
+                  Beasiswa Kamu
+                </Link>
               </h5>
               <ul className="comment">
                 <li>
                   <i className="fa fa-calendar" aria-hidden="true"></i>
-                  June 09, 2019
+                  05 Jan, 2024
                 </li>
-                <li>
+                {/* <li>
                   <i className="fa fa-commenting-o" aria-hidden="true"></i>
                   44
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -109,25 +118,25 @@ export default function BlogSidebar() {
           <h3 className="title">Tags</h3>
           <ul className="tag">
             <li>
-              <Link href="#">business</Link>
-            </li>
-            <li>
-              <Link href="#">wordpress</Link>
-            </li>
-            <li>
-              <Link href="#">html</Link>
-            </li>
-            <li>
-              <Link href="#">multipurpose</Link>
+              <Link href="#">kkuljaem</Link>
             </li>
             <li>
               <Link href="#">education</Link>
             </li>
             <li>
-              <Link href="#">template</Link>
+              <Link href="#">beasiswa</Link>
             </li>
             <li>
-              <Link href="#">Ecommerce</Link>
+              <Link href="#">korea</Link>
+            </li>
+            <li>
+              <Link href="#">mentoring</Link>
+            </li>
+            <li>
+              <Link href="#">kuliah</Link>
+            </li>
+            <li>
+              <Link href="#">belajar</Link>
             </li>
           </ul>
         </div>

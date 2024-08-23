@@ -4,9 +4,12 @@ import BlogCard from "@/components/BlogCard";
 import BlogSidebar from "@/components/BlogSidebar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import BlogImg1 from "../../../public/img/blog1.jpg";
-import BlogImg2 from "../../../public/img/blog2.jpg";
-import BlogImg3 from "../../../public/img/blog3.jpg";
+// import BlogImg1 from "../../../public/img/blog1.jpg";
+// import BlogImg2 from "../../../public/img/blog2.jpg";
+// import BlogImg3 from "../../../public/img/blog3.jpg";
+import BlogImg1 from "../../../public/img/event/beasiswa.jpg";
+import BlogImg2 from "../../../public/img/kkuljaem/Event1.jpg";
+import BlogImg3 from "../../../public/img/event/istilah.jpg";
 import Header from "@/components/Header/Header";
 
 export default function BlogGrid() {
@@ -14,7 +17,7 @@ export default function BlogGrid() {
     <>
       <Header />
 
-      <Breadcrumbs title="Blog Grid" menuText="Blog Grid" />
+      <Breadcrumbs title="News" menuText="News" />
 
       <section className="blog grid section">
         <div className="container">
@@ -24,48 +27,48 @@ export default function BlogGrid() {
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg1}
-                    date="22 Aug, 2020"
-                    title="We have annnocuced our new product."
+                    date="22 Aug, 2024"
+                    title="Pengumuman Beasiswa KGSP Graduate 2024"
                     desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg2}
-                    date="15 Jul, 2020"
-                    title="Top five way for solving teeth problems."
+                    date="15 Jul, 2024"
+                    title="Kuliah jurusan seni di Korea selatan dengan beasiswa KARTS 2024"
                     desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg3}
-                    date="05 Jan, 2020"
-                    title="We provide highly business soliutions."
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
-                  />
-                </div>
-                <div className="col-lg-6 col-md-6 col-12">
-                  <BlogCard
-                    image={BlogImg3}
-                    date="05 Jan, 2020"
-                    title="We provide highly business soliutions."
+                    date="05 Jan, 2024"
+                    title="50+ Istilah Ini Dapat Mempercepat Persiapan Berkas Pendaftaran Beasiswa Kamu"
                     desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg1}
-                    date="22 Aug, 2020"
-                    title="We have annnocuced our new product."
+                    date="22 Aug, 2024"
+                    title="Pengumuman Beasiswa KGSP Graduate 2024"
                     desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
                     image={BlogImg2}
-                    date="15 Jul, 2020"
-                    title="Top five way for solving teeth problems."
+                    date="15 Jul, 2024"
+                    title="Kuliah jurusan seni di Korea selatan dengan beasiswa KARTS 2024"
+                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
+                  />
+                </div>
+                <div className="col-lg-6 col-md-6 col-12">
+                  <BlogCard
+                    image={BlogImg3}
+                    date="05 Jan, 2024"
+                    title="50+ Istilah Ini Dapat Mempercepat Persiapan Berkas Pendaftaran Beasiswa Kamu"
                     desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
                   />
                 </div>

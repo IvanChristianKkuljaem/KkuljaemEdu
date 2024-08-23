@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { usePathname } from 'next/navigation';
-import Image from 'next/image';
-import Link from 'next/link';
-import { Offcanvas } from 'react-bootstrap';
+import { useState } from "react";
+import { usePathname } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
+import { Offcanvas } from "react-bootstrap";
 
-import Logo from '../../../public/img/logo.png';
-import ThemeLogo from '../../../public/img/kkuljaem/LogoEdu.png';
+import Logo from "../../../public/img/logo.png";
+import ThemeLogo from "../../../public/img/kkuljaem/LogoEdu.png";
 
 export default function MobileOffcanvas() {
   const pathname = usePathname();
@@ -28,7 +28,11 @@ export default function MobileOffcanvas() {
 
   return (
     <>
-      <button type="button" onClick={handleShow} className="mobile-menu-offcanvas-toggler">
+      <button
+        type="button"
+        onClick={handleShow}
+        className="mobile-menu-offcanvas-toggler"
+      >
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>
@@ -44,12 +48,12 @@ export default function MobileOffcanvas() {
                   href="/"
                   style={{
                     fontWeight: 600,
-                    color: '#2C2D3F',
-                    fontSize: '15px',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignContent: 'center',
-                    alignItems: 'center',
+                    color: "#2C2D3F",
+                    fontSize: "15px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    alignItems: "center",
                   }}
                 >
                   <Image src={ThemeLogo} alt="Logo" width={75} height={75} />
@@ -99,116 +103,277 @@ export default function MobileOffcanvas() {
                     </ul> */}
                   </li>
                   <li>
-                    <Link className="menu-arrow" onClick={() => toggleSubMenu(2)} href="#">
-                      Mentors <i className="icofont-rounded-down"></i>
+                    <Link
+                      className="menu-arrow"
+                      // onClick={() => toggleSubMenu(1)}
+                      onClick={handleClose}
+                      href="/about"
+                    >
+                      About Us
                     </Link>
-                    <ul className={`sub-menu ${openSubMenu === 2 ? 'open' : ''}`}>
+                  </li>
+                  <li>
+                    <Link
+                      className="menu-arrow"
+                      onClick={() => toggleSubMenu(3)}
+                      href="#"
+                    >
+                      Service <i className="icofont-rounded-down"></i>
+                    </Link>
+                    <ul
+                      className={`sub-menu ${openSubMenu === 3 ? "open" : ""}`}
+                    >
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/mentors') ? 'active' : ''}`} href="/mentors">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/services") ? "active" : ""
+                          }`}
+                          href="/services"
+                        >
+                          Package
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/mentor") ? "active" : ""}`}
+                          href="/mentor"
+                        >
                           Mentor
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/mentor-details') ? 'active' : ''}`} href="/mentor-details">
-                          Mentor Details
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/testimonials") ? "active" : ""
+                          }`}
+                          href="/testimonials"
+                        >
+                          Testimonial
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link className="menu-arrow" onClick={() => toggleSubMenu(3)} href="#">
-                      Services <i className="icofont-rounded-down"></i>
+                    <Link
+                      className="menu-arrow"
+                      // onClick={() => toggleSubMenu(1)}
+                      onClick={handleClose}
+                      href="/pricing"
+                    >
+                      Pricing
                     </Link>
-                    <ul className={`sub-menu ${openSubMenu === 3 ? 'open' : ''}`}>
+                  </li>
+                  <li>
+                    <Link
+                      className="menu-arrow"
+                      // onClick={() => toggleSubMenu(1)}
+                      onClick={handleClose}
+                      href="/blog-grid"
+                    >
+                      News
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="menu-arrow"
+                      // onClick={() => toggleSubMenu(1)}
+                      onClick={handleClose}
+                      href="/faq"
+                    >
+                      FAQ
+                    </Link>
+                  </li>
+                  {/* <li>
+                    <Link
+                      className="menu-arrow"
+                      onClick={() => toggleSubMenu(3)}
+                      href="#"
+                    >
+                      Pricing <i className="icofont-rounded-down"></i>
+                    </Link>
+                    <ul
+                      className={`sub-menu ${openSubMenu === 3 ? "open" : ""}`}
+                    >
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/service') ? 'active' : ''}`} href="/service">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/service") ? "active" : ""}`}
+                          href="/service"
+                        >
                           Service
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/service-details') ? 'active' : ''}`} href="/service-details">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/service-details") ? "active" : ""
+                          }`}
+                          href="/service-details"
+                        >
                           Service Details
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link className="menu-arrow" onClick={() => toggleSubMenu(4)} href="#">
+                    <Link
+                      className="menu-arrow"
+                      onClick={() => toggleSubMenu(4)}
+                      href="#"
+                    >
                       Pages <i className="icofont-rounded-down"></i>
                     </Link>
-                    <ul className={`sub-menu ${openSubMenu === 4 ? 'open' : ''}`}>
+                    <ul
+                      className={`sub-menu ${openSubMenu === 4 ? "open" : ""}`}
+                    >
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/about') ? 'active' : ''}`} href="/about">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/about") ? "active" : ""}`}
+                          href="/about"
+                        >
                           About Us
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/appointment') ? 'active' : ''}`} href="/appointment">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/appointment") ? "active" : ""
+                          }`}
+                          href="/appointment"
+                        >
                           Appointment
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/time-table') ? 'active' : ''}`} href="/time-table">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/time-table") ? "active" : ""
+                          }`}
+                          href="/time-table"
+                        >
                           Time Table
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/testimonials') ? 'active' : ''}`} href="/testimonials">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/testimonials") ? "active" : ""
+                          }`}
+                          href="/testimonials"
+                        >
                           Testimonials
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/pricing') ? 'active' : ''}`} href="/pricing">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/pricing") ? "active" : ""}`}
+                          href="/pricing"
+                        >
                           Our Pricing
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/register') ? 'active' : ''}`} href="/register">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/register") ? "active" : ""
+                          }`}
+                          href="/register"
+                        >
                           Sign Up
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/login') ? 'active' : ''}`} href="/login">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/login") ? "active" : ""}`}
+                          href="/login"
+                        >
                           Login
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/faq') ? 'active' : ''}`} href="/faq">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/faq") ? "active" : ""}`}
+                          href="/faq"
+                        >
                           Faq
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/mail-success') ? 'active' : ''}`} href="/mail-success">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/mail-success") ? "active" : ""
+                          }`}
+                          href="/mail-success"
+                        >
                           Mail Success
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/404') ? 'active' : ''}`} href="/404">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/404") ? "active" : ""}`}
+                          href="/404"
+                        >
                           404 Error
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link className="menu-arrow" onClick={() => toggleSubMenu(5)} href="#">
+                    <Link
+                      className="menu-arrow"
+                      onClick={() => toggleSubMenu(5)}
+                      href="#"
+                    >
                       Blogs <i className="icofont-rounded-down"></i>
                     </Link>
-                    <ul className={`sub-menu ${openSubMenu === 5 ? 'open' : ''}`}>
+                    <ul
+                      className={`sub-menu ${openSubMenu === 5 ? "open" : ""}`}
+                    >
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/blog-grid') ? 'active' : ''}`} href="/blog-grid">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/blog-grid") ? "active" : ""
+                          }`}
+                          href="/blog-grid"
+                        >
                           Blog Grid
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleClose} className={` ${isActive('/blog-single') ? 'active' : ''}`} href="/blog-single">
+                        <Link
+                          onClick={handleClose}
+                          className={` ${
+                            isActive("/blog-single") ? "active" : ""
+                          }`}
+                          href="/blog-single"
+                        >
                           Blog Details
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link onClick={handleClose} className={` ${isActive('/contact') ? 'active' : ''}`} href="/contact">
-                      Contact Us
+                    <Link
+                      onClick={handleClose}
+                      className={` ${isActive("/contact") ? "active" : ""}`}
+                      href="/contact"
+                    >
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -216,7 +381,11 @@ export default function MobileOffcanvas() {
             </div>
             {/* Mobile menu modal bottom */}
             <div className="mobile-menu-modal-bottom">
-              <Link href="https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0" className="btn" onClick={handleClose}>
+              <Link
+                href="https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0"
+                className="btn"
+                onClick={handleClose}
+              >
                 Consult Now
               </Link>
             </div>

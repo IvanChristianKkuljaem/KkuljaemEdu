@@ -11,7 +11,7 @@ export default function Features(props) {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="We Are Always Ready to Help You Aciehve Your Dream University"
+                title="We Are Always Ready to Help You Achieve Your Dream University"
                 desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
               />
             </div>
