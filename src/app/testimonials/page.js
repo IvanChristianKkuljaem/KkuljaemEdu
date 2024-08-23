@@ -14,9 +14,9 @@ export default function Testimonials() {
 
       <Features sectionName="Feautes testimonial-page section" />
 
-      <Funfact />
+      {/* <Funfact /> */}
 
-      <Services />
+      {/* <Services /> */}
 
       <Testimonial />
     </>

@@ -22,13 +22,11 @@ export default function BlogCard(props) {
             <div className="date">{date ? date : "22 Aug, 2020"}</div>
             <h2>
               <Link href="/blog-single">
-                {title ? title : "We have annnocuced our new product."}
+                {title ? title : "Pengumuman Kkuljaem Education"}
               </Link>
             </h2>
             <p className="text">
-              {desc
-                ? desc
-                : "Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."}
+              {desc ? desc : "Pengumuman beasiswa dari Kkuljaem Education"}
             </p>
           </div>
         </div>

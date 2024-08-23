@@ -1,11 +1,14 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function About() {
   return (
     <div className="col-lg-3 col-md-6 col-12">
       <div className="single-footer">
         <h2>About Us</h2>
-        <p>Kkuljaem Edu adalah lembaga konsultasi studi ke Korea Selatan yang didirikan oleh Han Jongdae (Bandung Oppa) di tahun 2022.</p>
+        <p>
+          Kkuljaem Edu adalah lembaga konsultasi studi ke Korea Selatan yang
+          didirikan oleh Han Jongdae (Bandung Oppa) di tahun 2022.
+        </p>
 
         <ul className="social">
           <li>

@@ -52,7 +52,7 @@ export default function Sliders(props) {
       title:
         "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
       subTitle:
-        "Kami telah berhasil membantu dbanyak siswa untuk berangkat dan belajar di Korea Selatan, dan terus mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk studi ke Korea Selatan. ",
+        "Kami telah berhasil membantu banyak siswa untuk berangkat dan belajar di Korea Selatan, dan terus mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk studi ke Korea Selatan. ",
       button: {
         text: "Get Consultation",
         link: "/appoinment",

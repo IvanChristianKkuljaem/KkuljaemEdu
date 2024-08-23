@@ -2,39 +2,39 @@ import Link from "next/link";
 
 const Data = [
   {
-    title: "Plastic Surgery",
-    icon: "icofont-ui-cut",
-    price: 199,
+    title: "Document Package",
+    icon: "icofont-law-document",
+    price: 8,
     features: [
-      { name: "Lorem ipsum dolor sit", status: true },
-      { name: "Cubitur sollicitudin fentum", status: true },
-      { name: "Nullam interdum enim", status: false },
+      { name: "Documents Preparation", status: true },
+      { name: "Apostile", status: true },
+      { name: "Translate", status: true },
       { name: "Donec ultricies metus", status: false },
-      { name: "Pellentesque eget nibh", status: false },
+      // { name: "Pellentesque eget nibh", status: false },
     ],
   },
   {
-    title: "Teeth Whitening",
-    icon: "icofont-tooth",
-    price: 299,
+    title: "Visa Package",
+    icon: "icofont-visa",
+    price: 8,
     features: [
-      { name: "Lorem ipsum dolor sit", status: true },
-      { name: "Cubitur sollicitudin fentum", status: true },
-      { name: "Nullam interdum enim", status: true },
+      { name: "Visa Processing", status: true },
+      { name: "Visa Fee", status: true },
+      { name: "Visa", status: true },
       { name: "Donec ultricies metus", status: false },
-      { name: "Pellentesque eget nibh", status: false },
+      // { name: "Pellentesque eget nibh", status: false },
     ],
   },
   {
-    title: "Heart Surgery",
-    icon: "icofont-heart-beat",
-    price: 399,
+    title: "Consultation Package",
+    icon: "icofont-package",
+    price: 5,
     features: [
-      { name: "Lorem ipsum dolor sit", status: true },
-      { name: "Cubitur sollicitudin fentum", status: true },
-      { name: "Nullam interdum enim", status: true },
-      { name: "Donec ultricies metus", status: true },
-      { name: "Pellentesque eget nibh", status: true },
+      { name: "University and Major Consultation", status: true },
+      { name: "Online Application", status: true },
+      { name: "Contact with University", status: true },
+      { name: "Contact other legal documents", status: true },
+      // { name: "Pellentesque eget nibh", status: true },
     ],
   },
 ];
@@ -44,7 +44,7 @@ export default function PricingData() {
     <>
       {Data.map((pricing, index) => (
         <div key={index} className="col-lg-4 col-md-12 col-12">
-          <div className="single-table">
+          <div className="single-table" style={{ minHeight: "525px" }}>
             <div className="table-head">
               <div className="icon">
                 <i className={`icofont ${pricing.icon}`}></i>
@@ -52,8 +52,8 @@ export default function PricingData() {
               <h4 className="title">{pricing.title}</h4>
               <div className="price">
                 <p className="amount">
-                  ${pricing.price}
-                  <span>/ Per Visit</span>
+                  Rp {pricing.price} juta
+                  <span>/ Per Package</span>
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function PricingData() {
             </ul>
             <div className="table-bottom">
               <Link className="btn" href="#">
-                Book Now
+                Buy Now
               </Link>
             </div>
           </div>

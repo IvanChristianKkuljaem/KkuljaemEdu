@@ -1,17 +1,17 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import useStickyHeader from './useStickyHeader';
+import Link from "next/link";
+import useStickyHeader from "./useStickyHeader";
 
-import Logo from '../Logo';
-import Navbar from '../Navbar';
-import MobileOffcanvas from '@/components/MobileOffcanvas';
+import Logo from "../Logo";
+import Navbar from "../Navbar";
+import MobileOffcanvas from "@/components/MobileOffcanvas";
 
 export default function HeaderInner() {
   const { isSticky } = useStickyHeader();
 
   return (
-    <div className={`header-inner ${isSticky ? 'sticky' : ''}`}>
+    <div className={`header-inner ${isSticky ? "sticky" : ""}`}>
       <div className="container">
         <div className="inner">
           <div className="row">
@@ -24,7 +24,10 @@ export default function HeaderInner() {
             </div>
             <div className="col-lg-2 col-12">
               <div className="get-quote">
-                <Link href="/appointment" className="btn">
+                <Link
+                  href="https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0"
+                  className="btn"
+                >
                   Consult Now
                 </Link>
               </div>
