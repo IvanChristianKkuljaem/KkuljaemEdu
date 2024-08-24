@@ -1,20 +1,22 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import BlogCard from "@/components/BlogCard";
-import BlogSidebar from "@/components/BlogSidebar";
-import Breadcrumbs from "@/components/Breadcrumbs";
+import BlogCard from '@/components/BlogCard';
+import BlogSidebar from '@/components/BlogSidebar';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 // import BlogImg1 from "../../../public/img/blog1.jpg";
 // import BlogImg2 from "../../../public/img/blog2.jpg";
 // import BlogImg3 from "../../../public/img/blog3.jpg";
-import BlogImg1 from "../../../public/img/event/beasiswa.jpg";
-import BlogImg2 from "../../../public/img/kkuljaem/Event1.jpg";
-import BlogImg3 from "../../../public/img/event/istilah.jpg";
-import Header from "@/components/Header/Header";
+import BlogImg1 from '../../../public/img/event/beasiswa.jpg';
+import BlogImg2 from '../../../public/img/kkuljaem/Event1.jpg';
+import BlogImg3 from '../../../public/img/event/istilah.jpg';
+import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
 
 export default function BlogGrid() {
   return (
     <>
+      <Preloader />
       <Header />
 
       <Breadcrumbs title="News" menuText="News" />
@@ -25,12 +27,7 @@ export default function BlogGrid() {
             <div className="col-lg-8 col-12">
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-12">
-                  <BlogCard
-                    image={BlogImg1}
-                    date="22 Aug, 2024"
-                    title="Pengumuman Beasiswa KGSP Graduate 2024"
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
-                  />
+                  <BlogCard image={BlogImg1} date="22 Aug, 2024" title="Pengumuman Beasiswa KGSP Graduate 2024" desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed." />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard
@@ -49,12 +46,7 @@ export default function BlogGrid() {
                   />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
-                  <BlogCard
-                    image={BlogImg1}
-                    date="22 Aug, 2024"
-                    title="Pengumuman Beasiswa KGSP Graduate 2024"
-                    desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed."
-                  />
+                  <BlogCard image={BlogImg1} date="22 Aug, 2024" title="Pengumuman Beasiswa KGSP Graduate 2024" desc="Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed." />
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <BlogCard

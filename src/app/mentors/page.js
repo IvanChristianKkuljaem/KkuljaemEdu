@@ -8,10 +8,12 @@ import TeamImg4 from '../../../public/img/kkuljaem/danielle.jpg';
 import TeamImg5 from '../../../public/img/kkuljaem/hyein.jpg';
 import TeamImg6 from '../../../public/img/kkuljaem/tooki.jpg';
 import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
 
 export default function Mentors() {
   return (
     <>
+      <Preloader />
       <Header />
 
       <Breadcrumbs title="Meet Our Qualified Mentors" menuText="Mentors" />

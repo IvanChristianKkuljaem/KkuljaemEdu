@@ -1,9 +1,11 @@
 import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
 import Link from 'next/link';
 
 export default function MailSuccess() {
   return (
     <>
+      <Preloader />
       <Header />
 
       <section className="mail-seccess section">

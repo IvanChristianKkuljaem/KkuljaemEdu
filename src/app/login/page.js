@@ -1,10 +1,12 @@
-import Breadcrumbs from "@/components/Breadcrumbs";
-import Header from "@/components/Header/Header";
-import Link from "next/link";
+import Breadcrumbs from '@/components/Breadcrumbs';
+import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
+import Link from 'next/link';
 
 export default function login() {
   return (
     <>
+      <Preloader />
       <Header />
 
       <Breadcrumbs title="Login" menuText="Login" />
@@ -20,46 +22,29 @@ export default function login() {
                 <div className="login-form">
                   <h2>Login Here</h2>
                   <p>
-                    Didn&apos;t you account yet ?{" "}
-                    <Link href="/register">Register Here</Link>
+                    Didn&apos;t you account yet ? <Link href="/register">Register Here</Link>
                   </p>
 
                   <form className="form" method="post" action="#">
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="First Name"
-                          />
+                          <input type="text" name="name" placeholder="First Name" />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input
-                            type="email"
-                            name="email"
-                            placeholder="Your Email"
-                          />
+                          <input type="email" name="email" placeholder="Your Email" />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input
-                            type="password"
-                            name="password"
-                            placeholder="Password"
-                          />
+                          <input type="password" name="password" placeholder="Password" />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input
-                            type="password"
-                            name="password"
-                            placeholder="Confirm Password"
-                          />
+                          <input type="password" name="password" placeholder="Confirm Password" />
                         </div>
                       </div>
                       <div className="col-12">
@@ -70,16 +55,8 @@ export default function login() {
                         </div>
                         <div className="checkbox">
                           <div className="form-check">
-                            <input
-                              className="form-check-input"
-                              type="checkbox"
-                              value=""
-                              id="flexCheckDefault"
-                            />
-                            <label
-                              className="form-check-label"
-                              for="flexCheckDefault"
-                            >
+                            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                            <label className="form-check-label" for="flexCheckDefault">
                               Remember me
                             </label>
                           </div>

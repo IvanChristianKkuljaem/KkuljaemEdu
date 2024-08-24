@@ -1,10 +1,12 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
 import Link from 'next/link';
 
 export default function Contact() {
   return (
     <>
+      <Preloader />
       <Header />
 
       <Breadcrumbs title="Contact Us" menuText="Contact Us" />
