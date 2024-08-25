@@ -1,15 +1,21 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import BlogCard from '@/components/BlogCard';
-import BlogSidebar from '@/components/BlogSidebar';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Header from '@/components/Header/Header';
 import Preloader from '@/components/Preloader';
 import newsData from '@/utils/news.json';
+import NewsSidebar from '@/components/NewsSidebar';
 
 export default function News() {
   const [news, setNews] = useState(newsData);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  useEffect(() => {
+    const filteredNews = newsData.filter((item) => item.title.toLowerCase().includes(searchTerm.toLowerCase()));
+    setNews(filteredNews);
+  }, [searchTerm]);
 
   return (
     <>
@@ -23,11 +29,19 @@ export default function News() {
           <div className="row">
             <div className="col-lg-8 col-12">
               <div className="row">
-                {news.map((item) => (
-                  <div key={item.id} className="col-lg-6 col-md-6 col-12">
-                    <BlogCard image={item.image} date={item.date} title={item.title} desc={item.desc} />
+                {news.length > 0 ? (
+                  news.map((item) => (
+                    <div key={item.id} className="col-lg-6 col-md-6 col-12">
+                      <BlogCard image={item.image} date={item.date} title={item.title} desc={item.desc} />
+                    </div>
+                  ))
+                ) : (
+                  <div className="col-12">
+                    <p className="news-not-found" style={{ fontSize: '16px', marginTop: '70px', padding: '10px' }}>
+                      No News Found
+                    </p>
                   </div>
-                ))}
+                )}
                 <div className="col-12">
                   <div className="pagination">
                     <ul className="pagination-list">
@@ -56,7 +70,7 @@ export default function News() {
               </div>
             </div>
             <div className="col-lg-4 col-12">
-              <BlogSidebar />
+              <NewsSidebar setSearchTerm={setSearchTerm} />
             </div>
           </div>
         </div>

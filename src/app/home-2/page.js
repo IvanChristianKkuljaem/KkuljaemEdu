@@ -10,7 +10,7 @@ import Testimonial from '../Home/Testimonials';
 import Departments from '../Home/Departments';
 import Pricing from '../Home/Pricing';
 import Team from '../Home/Team';
-import Blog from '../Home/Blog';
+import Blog from '../Home/News';
 import Clients from '../Home/Clients';
 import Appoinment from '../Home/Appoinment';
 import Preloader from '@/components/Preloader';

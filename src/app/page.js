@@ -1,6 +1,4 @@
 import Header from '@/components/Header/Header';
-import Appoinment from './Home/Appoinment';
-import Blog from './Home/Blog';
 import CallAction from './Home/CallAction';
 import Clients from './Home/Clients';
 import Departments from './Home/Departments';
@@ -15,6 +13,7 @@ import Team from './Home/Team';
 import Testimonial from './Home/Testimonials';
 import WhyChoose from './Home/WhyChoose';
 import Preloader from '@/components/Preloader';
+import News from './Home/News';
 
 export default function Home() {
   return (
@@ -34,7 +33,7 @@ export default function Home() {
       <Team />
       <Pricing />
       <Clients />
-      <Blog />
+      <News />
       {/* <Appoinment /> */}
     </>
   );
