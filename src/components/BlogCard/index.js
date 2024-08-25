@@ -1,10 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
 import BlogImg1 from '../../../public/img/blog1.jpg';
 
 export default function BlogCard(props) {
-  const { image, date, title, desc } = props;
+  const { id, image, date, title, desc } = props;
 
   return (
     <div className="single-news">
@@ -15,7 +14,7 @@ export default function BlogCard(props) {
         <div className="news-content">
           <div className="date">{date ? date : '22 Aug, 2020'}</div>
           <h2>
-            <Link href="/news-details">{title ? title : 'Pengumuman Kkuljaem Education'}</Link>
+            <Link href={`/news-details/${id}`}>{title ? title : 'Pengumuman Kkuljaem Education'}</Link>
           </h2>
           <p className="text">{desc ? desc : 'Pengumuman beasiswa dari Kkuljaem Education'}</p>
         </div>

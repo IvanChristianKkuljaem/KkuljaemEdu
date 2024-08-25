@@ -1,4 +1,5 @@
 'use client';
+
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import BlogCard from '@/components/BlogCard';
@@ -22,7 +23,13 @@ export default function News() {
       <Preloader />
       <Header />
 
-      <Breadcrumbs title="News" menuText="News" />
+      <Breadcrumbs
+        title="News"
+        breadcrumbItems={[
+          { href: '/', text: 'Home' },
+          { href: '/news', text: 'News' },
+        ]}
+      />
 
       <section className="blog grid section">
         <div className="container">
@@ -32,7 +39,7 @@ export default function News() {
                 {news.length > 0 ? (
                   news.map((item) => (
                     <div key={item.id} className="col-lg-6 col-md-6 col-12">
-                      <BlogCard image={item.image} date={item.date} title={item.title} desc={item.desc} />
+                      <BlogCard image={item.image} date={item.date} title={item.title} desc={item.desc} id={item.id} />
                     </div>
                   ))
                 ) : (

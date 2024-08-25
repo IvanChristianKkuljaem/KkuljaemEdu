@@ -17,7 +17,7 @@ export default function NotFound() {
                   <i className="fa fa-search"></i>
                 </button>
               </form> */}
-              <Link href="/" className="btn" style={{ marginTop: '30px' }}>
+              <Link href="/" className="btn" style={{ marginTop: '30px', color: 'white' }}>
                 Go Home
               </Link>
             </div>

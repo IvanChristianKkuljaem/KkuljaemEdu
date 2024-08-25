@@ -16,7 +16,13 @@ export default function Mentors() {
       <Preloader />
       <Header />
 
-      <Breadcrumbs title="Meet Our Qualified Mentors" menuText="Mentors" />
+      <Breadcrumbs
+        title="Meet Our Qualified Mentors"
+        breadcrumbItems={[
+          { href: '/', text: 'Home' },
+          { href: '/mentors', text: 'Mentors' },
+        ]}
+      />
 
       <section id="team" className="team section single-page">
         <div className="container">
