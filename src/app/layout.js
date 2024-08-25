@@ -1,3 +1,5 @@
+'use client';
+
 import Script from 'next/script';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
@@ -37,10 +39,10 @@ const poppins = Poppins({
   display: 'swap',
 });
 
-export const metadata = {
-  title: 'Kkuljaem Education',
-  description: 'Kkuljaem Education',
-};
+// export const metadata = {
+//   title: 'Kkuljaem Education',
+//   description: 'Kkuljaem Education',
+// };
 
 export default function RootLayout({ children }) {
   return (
@@ -48,6 +50,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Preloader />
         <ColorLayout />
+        {/* <Provider store={store}>{children}</Provider> */}
         {children}
         <Newsletter />
         <Footer />

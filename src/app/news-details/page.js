@@ -13,7 +13,7 @@ import AuthorImg from '../../../public/img/author1.jpg';
 import Header from '@/components/Header/Header';
 import Preloader from '@/components/Preloader';
 
-export default function BlogSingle() {
+export default function NewsDetails() {
   return (
     <>
       <Preloader />

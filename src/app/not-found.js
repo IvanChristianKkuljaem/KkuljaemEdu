@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function NotFound() {
   return (
     <section className="error-page section">
@@ -15,6 +17,9 @@ export default function NotFound() {
                   <i className="fa fa-search"></i>
                 </button>
               </form> */}
+              <Link href="/" className="btn" style={{ marginTop: '30px' }}>
+                Go Home
+              </Link>
             </div>
           </div>
         </div>
