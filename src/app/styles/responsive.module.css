@@ -189,13 +189,13 @@ Version:	1.1
     font-size: 24px;
   }
 
-  .Feautes.index2 {
+  .Features.index2 {
     padding-top: 70px;
   }
-  .Feautes .single-features::before {
+  .Features .single-features::before {
     display: none;
   }
-  .Feautes .single-features {
+  .Features .single-features {
     text-align: center;
     position: relative;
     padding: 10px 155px;
@@ -646,10 +646,10 @@ Version:	1.1
     font-size: 24px;
   }
 
-  .Feautes.index2 {
+  .Features.index2 {
     padding-top: 50px;
   }
-  .Feautes .single-features .signle-icon i {
+  .Features .single-features .signle-icon i {
     font-size: 42px;
     left: 50%;
     margin-left: -40px;
@@ -657,16 +657,16 @@ Version:	1.1
     width: 80px;
     line-height: 80px;
   }
-  .Feautes .single-features::before {
+  .Features .single-features::before {
     display: none;
   }
-  .Feautes .single-features {
+  .Features .single-features {
     text-align: center;
     position: relative;
     padding: 0px;
     margin: 15px 0;
   }
-  .Feautes .single-features h3 {
+  .Features .single-features h3 {
     padding-top: 105px;
     font-size: 20px;
   }
@@ -1140,7 +1140,7 @@ Version:	1.1
   .slider .owl-carousel .owl-nav {
     display: none;
   }
-  .Feautes .single-features .signle-icon i {
+  .Features .single-features .signle-icon i {
     font-size: 42px;
     left: 50%;
     margin-left: -40px;
@@ -1148,16 +1148,16 @@ Version:	1.1
     width: 80px;
     line-height: 80px;
   }
-  .Feautes .single-features::before {
+  .Features .single-features::before {
     display: none;
   }
-  .Feautes .single-features {
+  .Features .single-features {
     text-align: center;
     position: relative;
     padding: 0px;
     margin: 15px 0;
   }
-  .Feautes .single-features h3 {
+  .Features .single-features h3 {
     padding-top: 105px;
     font-size: 20px;
   }

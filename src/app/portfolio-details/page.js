@@ -1,9 +1,9 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import Breadcrumbs from '@/components/Breadcrumbs';
-import Sliders from './Sliders';
-import Header from '@/components/Header/Header';
-import Preloader from '@/components/Preloader';
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Sliders from "./Sliders";
+import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function PortfolioDetails() {
   return (
@@ -11,7 +11,13 @@ export default function PortfolioDetails() {
       <Preloader />
       <Header />
 
-      <Breadcrumbs title="Portfolio Details" menuText="Portfolio Details" />
+      <Breadcrumbs
+        title="Portfolio Details"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/portofolio-details", text: "Portofolio Details" },
+        ]}
+      />
 
       <section className="pf-details section">
         <div className="container">
@@ -40,25 +46,41 @@ export default function PortfolioDetails() {
                 <div className="body-text">
                   <h3>Here is the name of this project here</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor a ti incididunt ut labore et dolore to in magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis
-                    nostrud.Lorem ipsum dolor sit amet, in a in to in a consectetur.ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna in a aliqua uis nostrud.Lorem ipsum dolor
-                    sit amet, in aed do eiusmod
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor a ti incididunt ut labore et dolore to
+                    in magna aliqua. Ut enim ad minim veniam, quis to the in
+                    nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum
+                    dolor sit amet, in a in to in a consectetur.ncididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    to the in nostrud.abore et dolore magna in a aliqua uis
+                    nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod
                   </p>
                   <p>
-                    ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna to in aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna
-                    aliqua.{' '}
+                    ncididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis to the in nostrud.abore et dolore magna to in
+                    aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do
+                    eiusmod.ncididunt ut labore et dolore magna aliqua.{" "}
                   </p>
                   <p>
-                    ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna a aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod. dolor sit amet, in aed do eiusmod.ncididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis to the in nostrud.abore et dolore magna aliqua uis nostrud.
+                    ncididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis to the in nostrud.abore et dolore magna a
+                    aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do
+                    eiusmod.ncididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis to the in nostrud.abore et dolore
+                    magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed
+                    do eiusmod. dolor sit amet, in aed do eiusmod.ncididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    to the in nostrud.abore et dolore magna aliqua uis nostrud.
                   </p>
                   <div className="share">
                     <h4>Share Now -</h4>
                     <ul>
                       <li>
                         <Link href="#">
-                          <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-facebook-official"
+                            aria-hidden="true"
+                          ></i>
                         </Link>
                       </li>
                       <li>

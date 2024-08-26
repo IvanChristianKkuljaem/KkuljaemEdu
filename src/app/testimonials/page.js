@@ -1,8 +1,8 @@
-import Breadcrumbs from '@/components/Breadcrumbs';
-import Features from '../Home/Features';
-import Testimonial from '../Home/Testimonials';
-import Header from '@/components/Header/Header';
-import Preloader from '@/components/Preloader';
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Features from "../Home/Features";
+import Testimonial from "../Home/Testimonials";
+import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function Testimonials() {
   return (
@@ -10,9 +10,15 @@ export default function Testimonials() {
       <Preloader />
       <Header />
 
-      <Breadcrumbs title="Testimonials" menuText="Testimonials" />
+      <Breadcrumbs
+        title="Testimonials"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/testimonals", text: "Testimonials" },
+        ]}
+      />
 
-      <Features sectionName="Feautes testimonial-page section" />
+      <Features sectionName="Features testimonial-page section" />
 
       {/* <Funfact /> */}
 

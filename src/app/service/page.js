@@ -1,8 +1,8 @@
-import Breadcrumbs from '@/components/Breadcrumbs';
-import ServiceCard from '@/components/ServiceCard';
-import Clients from '../Home/Clients';
-import Header from '@/components/Header/Header';
-import Preloader from '@/components/Preloader';
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ServiceCard from "@/components/ServiceCard";
+import Clients from "../Home/Clients";
+import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function Service() {
   return (
@@ -10,7 +10,13 @@ export default function Service() {
       <Preloader />
       <Header />
 
-      <Breadcrumbs title="Service" menuText="Service" />
+      <Breadcrumbs
+        title="Service"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/service", text: "Service" },
+        ]}
+      />
 
       <section className="services section">
         <div className="container">

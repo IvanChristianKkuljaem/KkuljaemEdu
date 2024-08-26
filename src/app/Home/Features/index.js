@@ -6,7 +6,7 @@ export default function Features(props) {
 
   return (
     <>
-      <section className={sectionName ? sectionName : "Feautes section"}>
+      <section className={sectionName ? sectionName : "Features section"}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

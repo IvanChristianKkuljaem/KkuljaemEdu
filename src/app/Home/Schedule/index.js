@@ -36,7 +36,7 @@ export default function Schedule() {
                       <span>Kkuljaem Edu</span>
                       <h4>Services</h4>
                       <p>Konsultasi via zoom dengan pihak Universitas Korea</p>
-                      <Link href="#">
+                      <Link href="/pricing">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>

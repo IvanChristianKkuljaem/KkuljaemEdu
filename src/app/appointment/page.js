@@ -1,8 +1,8 @@
-import Breadcrumbs from '@/components/Breadcrumbs';
-import DateInput from '../Home/Appoinment/DateInput';
-import WorkHour from './WorkHour';
-import Header from '@/components/Header/Header';
-import Preloader from '@/components/Preloader';
+import Breadcrumbs from "@/components/Breadcrumbs";
+import DateInput from "../Home/Appoinment/DateInput";
+import WorkHour from "./WorkHour";
+import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function Appointment() {
   return (
@@ -10,7 +10,13 @@ export default function Appointment() {
       <Preloader />
       <Header />
 
-      <Breadcrumbs title="Get Your Appointment" menuText=" Appointment" />
+      <Breadcrumbs
+        title="Get Your Appointment"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/appoinment", text: "Appoinment" },
+        ]}
+      />
 
       <section className="appointment single-page">
         <div className="container">
@@ -40,7 +46,10 @@ export default function Appointment() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                       <div className="form-group">
-                        <select aria-label="Default select example" className="form-select">
+                        <select
+                          aria-label="Default select example"
+                          className="form-select"
+                        >
                           <option>Department</option>
                           <option value="1"> Cardiac Clinic</option>
                           <option value="2"> Neurology</option>
@@ -51,7 +60,10 @@ export default function Appointment() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                       <div className="form-group">
-                        <select aria-label="Default select example" className="form-select">
+                        <select
+                          aria-label="Default select example"
+                          className="form-select"
+                        >
                           <option>Doctor</option>
                           <option value="1"> Dr. Akther Hossain</option>
                           <option value="2">Dr. Dery Alex</option>
@@ -66,7 +78,10 @@ export default function Appointment() {
                     </div>
                     <div className="col-lg-12 col-md-12 col-12">
                       <div className="form-group">
-                        <textarea name="message" placeholder="Write Your Message Here....."></textarea>
+                        <textarea
+                          name="message"
+                          placeholder="Write Your Message Here....."
+                        ></textarea>
                       </div>
                     </div>
                   </div>

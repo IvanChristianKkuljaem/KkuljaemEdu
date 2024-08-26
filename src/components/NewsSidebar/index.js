@@ -1,11 +1,11 @@
-'use client';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
-import newsData from '@/utils/news.json';
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
+import newsData from "@/utils/news.json";
 
 export default function NewsSidebar({ setSearchTerm }) {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
 
   const handleSearch = () => {
     setSearchTerm(search);
@@ -15,7 +15,12 @@ export default function NewsSidebar({ setSearchTerm }) {
     <div className="main-sidebar">
       <div className="single-widget search">
         <div className="form">
-          <input type="text" placeholder="Search Here..." value={search} onChange={(e) => setSearch(e.target.value)} />
+          <input
+            type="text"
+            placeholder="Search Here..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
           <button className="button" onClick={handleSearch}>
             <i className="fa fa-search"></i>
           </button>
@@ -48,11 +53,16 @@ export default function NewsSidebar({ setSearchTerm }) {
         {newsData.slice(0, 3).map((item) => (
           <div key={item.id} className="single-post">
             <div className="image">
-              <Image src={item.image} alt={item.title} width={200} height={200} />
+              <Image
+                src={item.image}
+                alt={item.title}
+                width={200}
+                height={200}
+              />
             </div>
             <div className="content">
               <h5>
-                <Link href="#">{item.title}</Link>
+                <Link href={`/news-details/${item.id}`}>{item.title}</Link>
               </h5>
               <ul className="comment">
                 <li>
