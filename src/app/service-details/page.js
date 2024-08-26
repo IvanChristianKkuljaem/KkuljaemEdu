@@ -1,21 +1,30 @@
 import Image from "next/image";
 
 import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceImg from "../../../public/img/service-details-bg.jpg";
+import ServiceImg from "../../../public/img/event/HANYANG.png";
 import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function ServiceDetails() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Service Details" menuText="Service Details" />
+      <Breadcrumbs
+        title="Service Details"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/service", text: "Service" },
+          { href: "/service-details", text: "Service Details" },
+        ]}
+      />
 
       <div className="service-details-area section">
         <div className="container">
           <div className="services-details-img">
             <Image src={ServiceImg} alt="#" width={1920} height={1000} />
-            <h2>Our hospital always provide good services</h2>
+            <h2>Our team always provide good services</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
@@ -60,7 +69,7 @@ export default function ServiceDetails() {
             <div className="col-lg-7">
               <div className="service-details-inner">
                 <h2>
-                  We always take care <br /> our patient
+                  We always help you <br /> achieve your dream university
                 </h2>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.

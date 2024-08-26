@@ -3,13 +3,21 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Sliders from "./Sliders";
 import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function PortfolioDetails() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Portfolio Details" menuText="Portfolio Details" />
+      <Breadcrumbs
+        title="Portfolio Details"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/portofolio-details", text: "Portofolio Details" },
+        ]}
+      />
 
       <section className="pf-details section">
         <div className="container">

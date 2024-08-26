@@ -2,36 +2,44 @@ import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import DoctorImg from "../../../public/img/doctor-detail.jpg";
+import MentorImg from "../../../public/img/kkuljaem/hanni.jpg";
 import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function MentorDetails() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Doctor Details" menuText="Doctor Details" />
+      <Breadcrumbs
+        title="Mentor Details"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/mentor-details", text: "Mentor Details" },
+        ]}
+      />
 
       <div className="doctor-details-area section">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <Image src={DoctorImg} alt="#" width={479} height={551} />
+                <Image src={MentorImg} alt="#" width={479} height={551} />
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
                   <ul className="basic-info">
                     <li>
                       <i className="icofont-ui-call"></i>
-                      Call : +07 554 332 322
+                      Call : +628 7818 140362
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      hello@medsev.com
+                      hannipham@kkuljaemkorean.com{" "}
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      4th Floor, 408 No Chamber
+                      Yongsan Trade Center, Yongsan, Seoul , South Korea
                     </li>
                   </ul>
 
@@ -87,11 +95,9 @@ export default function MentorDetails() {
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
                   <div className="doctor-name">
-                    <h3 className="name">Dr. Sarah Taylor</h3>
-                    <p className="deg">Neurosurgeon.</p>
-                    <p className="degree">
-                      MBBS in Neurology, PHD in Neurosurgeon.
-                    </p>
+                    <h3 className="name">Pham Hanni</h3>
+                    <p className="deg">NewJeans</p>
+                    <p className="degree">Singer </p>
                   </div>
                   <div className="doctor-details-biography">
                     <h3>Biography</h3>

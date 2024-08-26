@@ -9,7 +9,7 @@ export default function Pricing() {
           <div className="row">
             <div className="col-lg-12">
               <SectionHead
-                title="We Provide You The Best Treatment In Reasonable Price"
+                title="We Provide You The Best Service In Reasonable Price"
                 desc="Lorem ipsum dolor sit amet consectetur adipiscing elit
                   praesent aliquet. pretiumts"
               />

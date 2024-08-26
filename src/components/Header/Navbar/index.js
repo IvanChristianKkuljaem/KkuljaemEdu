@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -35,10 +35,7 @@ export default function Navbar() {
               </ul> */}
           </li>
           <li>
-            <Link
-              className={` ${pathname === "/about" ? "active" : ""}`}
-              href="/about"
-            >
+            <Link className={` ${pathname === '/about' ? 'active' : ''}`} href="/about">
               About Us
             </Link>
           </li>
@@ -81,27 +78,18 @@ export default function Navbar() {
             </Link>
             <ul className="dropdown">
               <li>
-                <Link
-                  className={` ${pathname === "/service" ? "active" : ""}`}
-                  href="/service"
-                >
+                <Link className={` ${pathname === '/service' ? 'active' : ''}`} href="/service">
                   Package
                 </Link>
               </li>
               <li>
-                <Link
-                  className={` ${pathname === "/mentors" ? "active" : ""}`}
-                  href="/mentors"
-                >
+                <Link className={` ${pathname === '/mentors' ? 'active' : ''}`} href="/mentors">
                   Mentors
                 </Link>
               </li>
 
               <li>
-                <Link
-                  className={` ${pathname === "/testimonials" ? "active" : ""}`}
-                  href="/testimonials"
-                >
+                <Link className={` ${pathname === '/testimonials' ? 'active' : ''}`} href="/testimonials">
                   Testimonial
                 </Link>
               </li>
@@ -128,18 +116,12 @@ export default function Navbar() {
             </ul> */}
           </li>
           <li>
-            <Link
-              className={` ${pathname === "/pricing" ? "active" : ""}`}
-              href="/pricing"
-            >
+            <Link className={` ${pathname === '/pricing' ? 'active' : ''}`} href="/pricing">
               Pricing
             </Link>
           </li>
           <li>
-            <Link
-              className={` ${pathname === "/blog-grid" ? "active" : ""}`}
-              href="/blog-grid"
-            >
+            <Link className={` ${pathname === '/news' ? 'active' : ''}`} href="/news">
               News
             </Link>
           </li>
@@ -240,16 +222,16 @@ export default function Navbar() {
             <ul className="dropdown">
               <li>
                 <Link
-                  className={` ${pathname === "/blog-grid" ? "active" : ""}`}
-                  href="/blog-grid"
+                  className={` ${pathname === "/news" ? "active" : ""}`}
+                  href="/news"
                 >
                   Blog Grid
                 </Link>
               </li>
               <li>
                 <Link
-                  className={` ${pathname === "/blog-single" ? "active" : ""}`}
-                  href="/blog-single"
+                  className={` ${pathname === "/news-details" ? "active" : ""}`}
+                  href="/news-details"
                 >
                   Blog Details
                 </Link>
@@ -257,18 +239,12 @@ export default function Navbar() {
             </ul>
           </li> */}
           <li>
-            <Link
-              className={` ${pathname === "/faq" ? "active" : ""}`}
-              href="/faq"
-            >
+            <Link className={` ${pathname === '/faq' ? 'active' : ''}`} href="/faq">
               FAQ
             </Link>
           </li>
           <li>
-            <Link
-              className={` ${pathname === "/contact" ? "active" : ""}`}
-              href="/contact"
-            >
+            <Link className={` ${pathname === '/contact' ? 'active' : ''}`} href="/contact">
               Contact
             </Link>
           </li>

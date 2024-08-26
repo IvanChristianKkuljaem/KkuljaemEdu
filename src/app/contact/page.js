@@ -1,13 +1,21 @@
-import Breadcrumbs from '@/components/Breadcrumbs';
-import Header from '@/components/Header/Header';
-import Link from 'next/link';
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
+import Link from "next/link";
 
 export default function Contact() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Contact Us" menuText="Contact Us" />
+      <Breadcrumbs
+        title="Contact Us"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/contact", text: "Contact Us" },
+        ]}
+      />
 
       <section className="contact-us section">
         <div className="container">
@@ -16,40 +24,70 @@ export default function Contact() {
               <div className="col-lg-6">
                 <div className="contact-us-left">
                   <div id="myMap">
-                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=-6.187220943694921,106.70331609329935&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+                    <iframe
+                      id="gmap_canvas"
+                      src="https://maps.google.com/maps?q=-6.187220943694921,106.70331609329935&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                    ></iframe>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="contact-us-form">
                   <h2>Contact With Us</h2>
-                  <p>If you have any questions please fell free to contact with us.</p>
+                  <p>
+                    If you have any questions please fell free to contact with
+                    us.
+                  </p>
 
                   <form className="form" method="post" action="/mail.php">
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input type="text" name="name" placeholder="Name" required />
+                          <input
+                            type="text"
+                            name="name"
+                            placeholder="Name"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input type="email" name="email" placeholder="Email" required />
+                          <input
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input type="text" name="phone" placeholder="Phone" required />
+                          <input
+                            type="text"
+                            name="phone"
+                            placeholder="Phone"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="form-group">
-                          <input type="text" name="subject" placeholder="Subject" required />
+                          <input
+                            type="text"
+                            name="subject"
+                            placeholder="Subject"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-group">
-                          <textarea name="message" placeholder="Your Message" required></textarea>
+                          <textarea
+                            name="message"
+                            placeholder="Your Message"
+                            required
+                          ></textarea>
                         </div>
                       </div>
                       <div className="col-12">

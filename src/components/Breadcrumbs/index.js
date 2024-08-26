@@ -1,8 +1,6 @@
 import Link from 'next/link';
 
-export default function Breadcrumbs(props) {
-  const { title, menuText } = props;
-
+export default function Breadcrumbs({ title, breadcrumbItems = [] }) {
   return (
     <div className="breadcrumbs overlay">
       <div className="container">
@@ -11,13 +9,12 @@ export default function Breadcrumbs(props) {
             <div className="col-12">
               <h2>{title ? title : 'Meet Our Qualified Mentors'}</h2>
               <ul className="bread-list">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <i className="icofont-simple-right"></i>
-                </li>
-                <li className="active">{menuText ? menuText : 'Mentors'}</li>
+                {breadcrumbItems.map((item, index) => (
+                  <li key={index}>
+                    {item.href ? <Link href={item.href}>{item.text}</Link> : <span>{item.text}</span>}
+                    {index < breadcrumbItems.length - 1 && <i className="icofont-simple-right"></i>}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

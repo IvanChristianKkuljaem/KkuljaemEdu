@@ -2,13 +2,21 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import SectionHead from "@/components/SectionHead";
 import DoctorSchedule from "./DoctorSchedule";
 import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function TimeTable() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Time Table" menuText="Time Table" />
+      <Breadcrumbs
+        title="Time Table"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/time-table", text: "Time Table" },
+        ]}
+      />
 
       <section className="doctor-calendar-area section">
         <div className="container">

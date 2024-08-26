@@ -16,7 +16,7 @@ Version:	1.1
 	+ Search
 * Hero Slider CSS
 * Schedule CSS
-* Feautes CSS
+* Features CSS
 * Fun Facts CSS
 * Why Choose CSS
 * Call to Action CSS
@@ -752,23 +752,23 @@ body {
 ===============================*/
 
 /*=============================
-	Start Feautes CSS
+	Start Features CSS
 ===============================*/
-.Feautes {
+.Features {
   padding-top: 0;
 }
-.Feautes.index2 {
+.Features.index2 {
   padding-top: 100px;
 }
-.Feautes.testimonial-page {
+.Features.testimonial-page {
   padding-top: 100px;
 }
-.Feautes .single-features {
+.Features .single-features {
   text-align: center;
   position: relative;
   padding: 10px 20px;
 }
-.Feautes .single-features::before {
+.Features .single-features::before {
   position: absolute;
   content: "";
   right: -72px;
@@ -776,13 +776,13 @@ body {
   width: 118px;
   border-bottom: 3px dotted var(--primary-color);
 }
-.Feautes .single-features.last::before {
+.Features .single-features.last::before {
   display: none;
 }
-.Feautes .single-features .signle-icon {
+.Features .single-features .signle-icon {
   position: relative;
 }
-.Feautes .single-features .signle-icon i {
+.Features .single-features .signle-icon i {
   font-size: 50px;
   color: var(--primary-color);
   position: absolute;
@@ -799,22 +799,22 @@ body {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-.Feautes .single-features:hover .signle-icon i {
+.Features .single-features:hover .signle-icon i {
   background: var(--primary-color);
   color: #fff;
   border-color: transparent;
 }
-.Feautes .single-features h3 {
+.Features .single-features h3 {
   padding-top: 128px;
   color: #2c2d3f;
   font-weight: 600;
   font-size: 21px;
 }
-.Feautes .single-features p {
+.Features .single-features p {
   margin-top: 20px;
 }
 /*=============================
-	End Feautes CSS
+	End Features CSS
 ===============================*/
 
 /*=======================
@@ -1283,7 +1283,7 @@ body {
   font-size: 32px;
 }
 .service-details-inner-left {
-  background-image: url("../../../public/img/signup-bg.jpg");
+  background-image: url("../../../public/img/event/KONKUK.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

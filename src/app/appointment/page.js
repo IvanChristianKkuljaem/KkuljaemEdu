@@ -2,13 +2,21 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import DateInput from "../Home/Appoinment/DateInput";
 import WorkHour from "./WorkHour";
 import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 
 export default function Appointment() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Get Your Appointment" menuText=" Appointment" />
+      <Breadcrumbs
+        title="Get Your Appointment"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/appoinment", text: "Appoinment" },
+        ]}
+      />
 
       <section className="appointment single-page">
         <div className="container">

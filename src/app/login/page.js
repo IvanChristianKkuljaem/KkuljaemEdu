@@ -1,14 +1,21 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Header from "@/components/Header/Header";
+import Preloader from "@/components/Preloader";
 import Link from "next/link";
 
 export default function login() {
   return (
     <>
+      <Preloader />
       <Header />
 
-      <Breadcrumbs title="Login" menuText="Login" />
-
+      <Breadcrumbs
+        title="Login"
+        breadcrumbItems={[
+          { href: "/", text: "Home" },
+          { href: "/login", text: "Login" },
+        ]}
+      />
       <section className="login section">
         <div className="container">
           <div className="inner">

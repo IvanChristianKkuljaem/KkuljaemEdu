@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { usePathname } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
-import { Offcanvas } from "react-bootstrap";
+import { useState } from 'react';
+import { usePathname } from 'next/navigation';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Offcanvas } from 'react-bootstrap';
 
-import Logo from "../../../public/img/logo.png";
-import ThemeLogo from "../../../public/img/kkuljaem/LogoEdu.png";
+import Logo from '../../../public/img/logo.png';
+import ThemeLogo from '../../../public/img/kkuljaem/LogoEdu.png';
 
 export default function MobileOffcanvas() {
   const pathname = usePathname();
@@ -28,11 +28,7 @@ export default function MobileOffcanvas() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={handleShow}
-        className="mobile-menu-offcanvas-toggler"
-      >
+      <button type="button" onClick={handleShow} className="mobile-menu-offcanvas-toggler">
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>
@@ -48,12 +44,12 @@ export default function MobileOffcanvas() {
                   href="/"
                   style={{
                     fontWeight: 600,
-                    color: "#2C2D3F",
-                    fontSize: "15px",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignContent: "center",
-                    alignItems: "center",
+                    color: '#2C2D3F',
+                    fontSize: '15px',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignContent: 'center',
+                    alignItems: 'center',
                   }}
                 >
                   <Image src={ThemeLogo} alt="Logo" width={75} height={75} />
@@ -113,44 +109,22 @@ export default function MobileOffcanvas() {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="menu-arrow"
-                      onClick={() => toggleSubMenu(3)}
-                      href="#"
-                    >
+                    <Link className="menu-arrow" onClick={() => toggleSubMenu(3)} href="#">
                       Service <i className="icofont-rounded-down"></i>
                     </Link>
-                    <ul
-                      className={`sub-menu ${openSubMenu === 3 ? "open" : ""}`}
-                    >
+                    <ul className={`sub-menu ${openSubMenu === 3 ? 'open' : ''}`}>
                       <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/services") ? "active" : ""
-                          }`}
-                          href="/services"
-                        >
+                        <Link onClick={handleClose} className={` ${isActive('/services') ? 'active' : ''}`} href="/services">
                           Package
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${isActive("/mentor") ? "active" : ""}`}
-                          href="/mentor"
-                        >
+                        <Link onClick={handleClose} className={` ${isActive('/mentor') ? 'active' : ''}`} href="/mentor">
                           Mentor
                         </Link>
                       </li>
                       <li>
-                        <Link
-                          onClick={handleClose}
-                          className={` ${
-                            isActive("/testimonials") ? "active" : ""
-                          }`}
-                          href="/testimonials"
-                        >
+                        <Link onClick={handleClose} className={` ${isActive('/testimonials') ? 'active' : ''}`} href="/testimonials">
                           Testimonial
                         </Link>
                       </li>
@@ -171,7 +145,7 @@ export default function MobileOffcanvas() {
                       className="menu-arrow"
                       // onClick={() => toggleSubMenu(1)}
                       onClick={handleClose}
-                      href="/blog-grid"
+                      href="/news"
                     >
                       News
                     </Link>
@@ -347,9 +321,9 @@ export default function MobileOffcanvas() {
                         <Link
                           onClick={handleClose}
                           className={` ${
-                            isActive("/blog-grid") ? "active" : ""
+                            isActive("/news") ? "active" : ""
                           }`}
-                          href="/blog-grid"
+                          href="/news"
                         >
                           Blog Grid
                         </Link>
@@ -358,9 +332,9 @@ export default function MobileOffcanvas() {
                         <Link
                           onClick={handleClose}
                           className={` ${
-                            isActive("/blog-single") ? "active" : ""
+                            isActive("/news-details") ? "active" : ""
                           }`}
-                          href="/blog-single"
+                          href="/news-details"
                         >
                           Blog Details
                         </Link>
@@ -368,11 +342,7 @@ export default function MobileOffcanvas() {
                     </ul>
                   </li> */}
                   <li>
-                    <Link
-                      onClick={handleClose}
-                      className={` ${isActive("/contact") ? "active" : ""}`}
-                      href="/contact"
-                    >
+                    <Link onClick={handleClose} className={` ${isActive('/contact') ? 'active' : ''}`} href="/contact">
                       Contact
                     </Link>
                   </li>
@@ -381,11 +351,7 @@ export default function MobileOffcanvas() {
             </div>
             {/* Mobile menu modal bottom */}
             <div className="mobile-menu-modal-bottom">
-              <Link
-                href="https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0"
-                className="btn"
-                onClick={handleClose}
-              >
+              <Link href="https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0" className="btn" onClick={handleClose}>
                 Consult Now
               </Link>
             </div>
