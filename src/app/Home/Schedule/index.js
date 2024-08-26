@@ -12,12 +12,12 @@ export default function Schedule() {
                 <div className="single-schedule first">
                   <div className="inner">
                     <div className="icon">
-                      <i className="fa fa-ambulance"></i>
+                      <i className="icofont-university"></i>
                     </div>
                     <div className="single-content">
                       <span>Scholarship Program</span>
                       <h4>Preparation</h4>
-                      <p>Konsultasi Unlimited dengan Edu Consultant expert</p>
+                      <p>Konsultasi Unlimited dengan Edu Consultant Expert</p>
                       <Link href="/service">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>

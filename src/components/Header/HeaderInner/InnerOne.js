@@ -25,7 +25,7 @@ export default function HeaderInner() {
             <div className="col-lg-2 col-12">
               <div className="get-quote">
                 <Link
-                  href="https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform"
                   className="btn"
                 >
                   Consult Now

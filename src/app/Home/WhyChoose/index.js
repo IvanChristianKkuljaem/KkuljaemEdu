@@ -1,6 +1,6 @@
-import SectionHead from '@/components/SectionHead';
+import SectionHead from "@/components/SectionHead";
 
-import Video from './Video';
+import Video from "./Video";
 
 export default function WhyChoose() {
   return (
@@ -8,7 +8,10 @@ export default function WhyChoose() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <SectionHead title="We Offer Different Services To Help You Achieve Your Dream University" desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts" />
+            <SectionHead
+              title="We Offer Different Services To Help You Achieve Your Dream University"
+              desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
+            />
           </div>
         </div>
         <div className="row">
@@ -16,8 +19,17 @@ export default function WhyChoose() {
             <div className="choose-left">
               <h3>Who We Are</h3>
               <p>
-                Kkuljaem Edu adalah lembaga konsultasi studi ke Korea Selatan yang didirikan oleh Han Jongdae (Bandung Oppa) di tahun 2022. Hingga saat ini, kami telah berhasil membantu banyak siswa untuk berangkat dan belajar di Korea
-                Selatan, dan terus mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk studi ke Korea Selatan.
+                Kkuljaem Edu is an education consultancy specializing in higher
+                education in South Korea, founded by Bandung Oppa (Han Jongdae)
+                and his partner in 2022.
+              </p>
+              <p>
+                Currently, we have successfully assisted and supported
+                Indonesian students in achieving their dreams of enrolling and
+                continuing their higher studies in South Korea. We are committed
+                to becoming a better platform and bridge between Indonesian
+                students, educational institutions, and universities in South
+                Korea.
               </p>
               <div className="row">
                 <div className="col-lg-6">
@@ -36,13 +48,16 @@ export default function WhyChoose() {
                 <div className="col-lg-6">
                   <ul className="list">
                     <li>
-                      <i className="fa fa-caret-right"></i>Universitas Tujuan Lengkap
+                      <i className="fa fa-caret-right"></i>Universitas Tujuan
+                      Lengkap
                     </li>
                     <li>
-                      <i className="fa fa-caret-right"></i>Konselor Lulusan Korea Selatan
+                      <i className="fa fa-caret-right"></i>Konselor Lulusan
+                      Korea Selatan
                     </li>
                     <li>
-                      <i className="fa fa-caret-right"></i>Kantor di Korea dan Indonesia
+                      <i className="fa fa-caret-right"></i>Kantor di Korea dan
+                      Indonesia
                     </li>
                   </ul>
                 </div>
