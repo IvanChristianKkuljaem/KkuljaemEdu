@@ -45,7 +45,7 @@ export default function Comments() {
                 <Image src={AuthorImg2} alt="#" width={455} height={455} />
               </div>
               <div className="body">
-                <h4>Naimur Rahman</h4>
+                <h4>Ivan Christian</h4>
                 <div className="comment-meta">
                   <span className="meta">
                     <i className="fa fa-calendar"></i>March 05, 2019

@@ -16,6 +16,7 @@ export default function MentorDetails() {
         title="Mentor Details"
         breadcrumbItems={[
           { href: "/", text: "Home" },
+          { href: "/mentors", text: "Mentors" },
           { href: "/mentor-details", text: "Mentor Details" },
         ]}
       />

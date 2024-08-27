@@ -1,13 +1,16 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-import ThemeLogo from '../../../../public/img/kkuljaem/LogoEdu.png';
+import ThemeLogo from "../../../../public/img/kkuljaem/LogoEdu.png";
 
 export default function Logo() {
   return (
     <div className="logo">
-      <Link href="/" style={{ fontWeight: 600, color: '#2C2D3F', fontSize: '15px' }}>
-        <Image src={ThemeLogo} alt="Logo" width={75} height={75} />
+      <Link
+        href="/"
+        style={{ fontWeight: 600, color: "#2C2D3F", fontSize: "15px" }}
+      >
+        <Image src={ThemeLogo} alt="Logo" width={75} height="auto" />
         &nbsp;Kkuljaem Education
       </Link>
     </div>

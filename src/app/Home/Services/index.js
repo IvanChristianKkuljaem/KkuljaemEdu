@@ -1,7 +1,18 @@
+"use client";
+import { useEffect, useState } from "react";
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
+import serviceData from "@/utils/service.json";
 
 export default function Services() {
+  const [services, setServices] = useState(serviceData);
+
+  // useEffect(() => {
+  //   fetch(serviceData)
+  //     .then((response) => response.json())
+  //     .then((data) => setServices(data));
+  // }, []);
+
   return (
     <section className="services section">
       <div className="container">
@@ -14,60 +25,16 @@ export default function Services() {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-12">
-            <ServiceCard
-              icon="icofont icofont-prescription"
-              title="GKS Private Mentoring Preparation Basic"
-              desc="<ul>
-                      <li>Program pendampingan study di Korea mulai dari persiapan diri, persiapan dokumen, pendafataran beasiswa dan universitas yang dapat membantu kamu untuk bisa mendaftar secara tepat dan efisien.</li>
-                    </ul>"
-            />
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
-            <ServiceCard
-              icon="icofont icofont-prescription"
-              title="GKS Private Mentoring Preparation Pro"
-              desc="<ul>
-                      <li>Program pendampingan study di Korea mulai dari persiapan diri, persiapan dokumen, pendafataran beasiswa dan universitas yang dapat membantu kamu untuk bisa mendaftar secara tepat dan efisien.</li>
-                    </ul>"
-            />
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
-            <ServiceCard
-              icon="icofont icofont-prescription"
-              title="GKS Mentoring and TOPIK Preparation"
-              desc="<ul>
-                      <li>Program pendampingan study di Korea mulai dari persiapan diri, persiapan dokumen, pendafataran beasiswa dan universitas yang dapat membantu kamu untuk bisa mendaftar secara tepat dan efisien.</li>
-                    </ul>"
-            />
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
-            <ServiceCard
-              icon="icofont icofont-prescription"
-              title="GKS Mentoring and Preparation Group"
-              desc="<ul>
-                      <li>Program pendampingan study di Korea mulai dari persiapan diri, persiapan dokumen, pendafataran beasiswa dan universitas yang dapat membantu kamu untuk bisa mendaftar secara tepat dan efisien.</li>
-                    </ul>"
-            />
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
-            <ServiceCard
-              icon="icofont icofont-prescription"
-              title="GKS Private Mentoring Preparation"
-              desc="<ul>
-                      <li>Program pendampingan study di Korea mulai dari persiapan diri, persiapan dokumen, pendafataran beasiswa dan universitas yang dapat membantu kamu untuk bisa mendaftar secara tepat dan efisien.</li>
-                    </ul>"
-            />
-          </div>
-          <div className="col-lg-4 col-md-6 col-12">
-            <ServiceCard
-              icon="icofont icofont-prescription"
-              title="GKS Group Mentoring Preparation"
-              desc="<ul>
-                      <li>Program pendampingan study di Korea mulai dari persiapan diri, persiapan dokumen, pendafataran beasiswa dan universitas yang dapat membantu kamu untuk bisa mendaftar secara tepat dan efisien.</li>
-                    </ul>"
-            />
-          </div>
+          {services.map((service) => (
+            <div className="col-lg-4 col-md-6 col-12" key={service.id}>
+              <ServiceCard
+                id={service.id}
+                icon={service.icon}
+                title={service.title}
+                desc={service.desc}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>

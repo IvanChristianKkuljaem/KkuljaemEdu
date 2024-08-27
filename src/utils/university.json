@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "image": "/img/kkuljaem/01. SKKU.png",
+    "name": "SKKU",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-760-1000",
+        "email": "admission@skku.edu",
+        "address": "Postal Code 03063 서울특별시 종로구 성균관로 25-2(명륜동 3가 53) 성균관대학교 국제관 2층 외국인유학생지원팀(90213호) Office of International Student Services(#90213), International Hall, 25-2, Sungkyunkwan-ro, Jongno-gu, Seoul, Korea(03063)"
+      },
+      "about": "Sungkyunkwan University is a national university with 625 years of glorious history and shining tradition and is a representative symbol of a leading university which leads the new era. At the same time, the university has led the development of higher education in Korea by challenging and innovating with a mind for sharing and coexistence. We strive to newly form our own brand worthy of our name which actively embraces global social issues through pioneering of global management.",
+      "scholarships": [
+        "Admission scholarships",
+        "Scholarship for Excellent Korean Language Professionals",
+        "Merit-Based Scholarships",
+        "Samsung Global Sungkyun Scholarship for Foreign Students"
+      ],
+      "programs": [
+        "Rekayasa Material",
+        "Farmakologi & Toksikologi",
+        "Kimia Fisik",
+        "Matematika",
+        "Ekonomi & Bisnis"
+      ],
+      "hours": [
+        "Monday - Friday: 08.00-20.00",
+        "Saturday: 09.00-18.30",
+        "Monday - Thursday: 09.00-15.00",
+        "Friday: 08.00-20.00"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "image": "/img/kkuljaem/02. Hanyang.png",
+    "name": "Hanyang",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-2220-0114",
+        "email": "admission@hanyang.ac.kr",
+        "address": "222 Wangsimni-ro, Seongdong-gu, Seoul, South Korea"
+      },
+      "about": "Hanyang University is a prestigious private research university in South Korea. It was founded in 1939 and is known for its engineering and business programs.",
+      "scholarships": [
+        "Hanyang International Excellence Awards",
+        "Korean Government Scholarship Program",
+        "Global Korea Scholarship"
+      ],
+      "programs": [
+        "Engineering",
+        "Business Administration",
+        "Medicine",
+        "Law",
+        "Architecture"
+      ],
+      "hours": [
+        "Monday - Friday: 8.30-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "image": "/img/kkuljaem/03. Hankuk.png",
+    "name": "Hankuk",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-2173-2114",
+        "email": "admission@hufs.ac.kr",
+        "address": "107 Imun-ro, Dongdaemun-gu, Seoul, South Korea"
+      },
+      "about": "Hankuk University of Foreign Studies is a private research university based in Seoul, South Korea. It specializes in the study of foreign languages, international relations, and international law.",
+      "scholarships": [
+        "HUFS Global Scholarship",
+        "HUFS Language Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "International Relations",
+        "Law",
+        "Foreign Languages",
+        "Political Science",
+        "Economics"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-18.00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "image": "/img/kkuljaem/04 Kyung Hee.png",
+    "name": "Kyung Hee",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-961-0114",
+        "email": "admission@khu.ac.kr",
+        "address": "26 Kyungheedae-ro, Dongdaemun-gu, Seoul, South Korea"
+      },
+      "about": "Kyung Hee University is a comprehensive private university in South Korea with campuses in Seoul and Suwon. It is known for its research and educational excellence.",
+      "scholarships": [
+        "Kyung Hee Global Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Medicine",
+        "International Studies",
+        "Law",
+        "Engineering",
+        "Economics"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-18.00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "image": "/img/kkuljaem/05. Sunchon.png",
+    "name": "Sunchon",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-61-750-5114",
+        "email": "admission@sunchon.ac.kr",
+        "address": "255 Jungang-ro, Sunchon-si, Jeollanam-do, South Korea"
+      },
+      "about": "Sunchon National University is a national research university located in Sunchon, South Korea. It is known for its strong programs in agriculture and environmental studies.",
+      "scholarships": [
+        "Sunchon National Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Agriculture",
+        "Environmental Studies",
+        "Engineering",
+        "Biotechnology",
+        "Business Administration"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-18.00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "image": "/img/kkuljaem/06. Ajou.png",
+    "name": "Ajou",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-31-219-2114",
+        "email": "admission@ajou.ac.kr",
+        "address": "206 Worldcup-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, South Korea"
+      },
+      "about": "Ajou University is a prestigious private university located in Suwon, South Korea. It is renowned for its engineering and IT programs.",
+      "scholarships": [
+        "Ajou University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Engineering",
+        "Information Technology",
+        "Business Administration",
+        "Medicine",
+        "Social Sciences"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.00",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "image": "/img/kkuljaem/07. Sangmyung.png",
+    "name": "Sangmyung",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-710-8114",
+        "email": "admission@smu.ac.kr",
+        "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea"
+      },
+      "about": "Sangmyung University is a private university in South Korea, known for its strong programs in the arts and education.",
+      "scholarships": [
+        "Sangmyung University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Arts",
+        "Education",
+        "Social Sciences",
+        "Business Administration",
+        "Engineering"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  }
+]

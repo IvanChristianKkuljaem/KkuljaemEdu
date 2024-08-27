@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/img/kkuljaem/hanni.jpg",
+    "name": "Pham Hanni",
+    "designation": "Ditto"
+  },
+  {
+    "id": 2,
+    "image": "/img/kkuljaem/haerin.jpg",
+    "name": "Kang Haerin",
+    "designation": "Supernatural"
+  },
+  {
+    "id": 3,
+    "image": "/img/kkuljaem/minji.jpg",
+    "name": "Kim Minji",
+    "designation": "Super Shy"
+  },
+  {
+    "id": 4,
+    "image": "/img/kkuljaem/danielle.jpg",
+    "name": "Danielle Marsh",
+    "designation": "How Sweet"
+  },
+  {
+    "id": 5,
+    "image": "/img/kkuljaem/hyein.jpg",
+    "name": "Lee Hyein",
+    "designation": "Hype Boy"
+  },
+  {
+    "id": 6,
+    "image": "/img/kkuljaem/tooki.jpg",
+    "name": "Tokki",
+    "designation": "Attention"
+  }
+]

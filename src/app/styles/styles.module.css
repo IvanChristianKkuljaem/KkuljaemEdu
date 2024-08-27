@@ -1,9 +1,9 @@
 /* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor Next.js Template.
-Version:	1.1
+Name: 	Kkuljaem Education.
+Author Name: Ivan Christian
+Website: https://kkuljaemeducation.com/
+Description: Kkuljaem Education  
+Version: 1.0
 ========================================*/
 /*======================================
 [ CSS Table of contents ]
@@ -41,7 +41,7 @@ Version:	1.1
 * Error 404 CSS
 * Mail Success CSS
 * Newsletter CSS
-* Doctor Calendar CSS
+* Calendar CSS
 * About Us CSS
 * Footer CSS
 ========================================*/
@@ -1894,8 +1894,9 @@ body {
 
 .doctor-details-area .doctor-details-right {
   padding-left: 60px;
-  padding-top: 70px;
+  padding-top: 30px;
 }
+
 .doctor-details-item .doctor-details-biography {
 }
 .doctor-details-item .doctor-details-biography h3 {
