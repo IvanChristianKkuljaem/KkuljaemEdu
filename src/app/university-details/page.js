@@ -7,6 +7,7 @@ import universityData from "@/utils/university.json";
 
 export default function UniversityDetails() {
   const univ = universityData[0];
+  const videos = Array.isArray(univ.videos) ? univ.videos : [univ.videos];
 
   return (
     <>
@@ -34,6 +35,24 @@ export default function UniversityDetails() {
                   height={551}
                 />
                 <div className="doctor-details-contact">
+                  <div
+                    className="university-videos"
+                    style={{ paddingBottom: 40, marginTop: "-20px" }}
+                  >
+                    {videos.map((video, index) => (
+                      <div key={index} className="video-container">
+                        <iframe
+                          width="100%"
+                          height="315"
+                          src={video}
+                          title={`University video ${index + 1}`}
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        ></iframe>
+                      </div>
+                    ))}
+                  </div>
                   <h3>Contact Info</h3>
                   <ul className="basic-info">
                     <li>

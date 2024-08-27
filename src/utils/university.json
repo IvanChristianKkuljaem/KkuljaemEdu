@@ -30,7 +30,8 @@
         "Monday - Thursday: 09.00-15.00",
         "Friday: 08.00-20.00"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 2,
@@ -201,6 +202,161 @@
       "about": "Sangmyung University is a private university in South Korea, known for its strong programs in the arts and education.",
       "scholarships": [
         "Sangmyung University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Arts",
+        "Education",
+        "Social Sciences",
+        "Business Administration",
+        "Engineering"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "image": "/img/kkuljaem/08. Wonkwang.png",
+    "name": "Wongkwang",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-710-8114",
+        "email": "admission@wonk.ac.kr",
+        "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea"
+      },
+      "about": "Wonkwang University is a private university in South Korea, known for its strong programs in the arts and education.",
+      "scholarships": [
+        "Wonkwang University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Arts",
+        "Education",
+        "Social Sciences",
+        "Business Administration",
+        "Engineering"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "image": "/img/kkuljaem/09. Solbridge.png",
+    "name": "Solbridge",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-710-8114",
+        "email": "admission@solb.ac.kr",
+        "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea"
+      },
+      "about": "Solbridge University is a private university in South Korea, known for its strong programs in the arts and education.",
+      "scholarships": [
+        "Solbridge University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Arts",
+        "Education",
+        "Social Sciences",
+        "Business Administration",
+        "Engineering"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "image": "/img/kkuljaem/10. Dankook.png",
+    "name": "Dankook",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-710-8114",
+        "email": "admission@dan.ac.kr",
+        "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea"
+      },
+      "about": "Dankook University is a private university in South Korea, known for its strong programs in the arts and education.",
+      "scholarships": [
+        "Dankook University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Arts",
+        "Education",
+        "Social Sciences",
+        "Business Administration",
+        "Engineering"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "image": "/img/kkuljaem/11. Hong Ik.png",
+    "name": "Hong Ik",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-710-8114",
+        "email": "admission@hong.ac.kr",
+        "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea"
+      },
+      "about": "Hong Ik University is a private university in South Korea, known for its strong programs in the arts and education.",
+      "scholarships": [
+        "Hong Ik University Scholarship",
+        "International Student Scholarship",
+        "Korean Government Scholarship Program"
+      ],
+      "programs": [
+        "Arts",
+        "Education",
+        "Social Sciences",
+        "Business Administration",
+        "Engineering"
+      ],
+      "hours": [
+        "Monday - Friday: 9.00-17.30",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "image": "/img/kkuljaem/12. Mokpo.png",
+    "name": "Mokpo",
+    "designation": "University",
+    "details": {
+      "contact": {
+        "phone": "+82-2-710-8114",
+        "email": "admission@mok.ac.kr",
+        "address": "20 Hongjimun 2-gil, Jongno-gu, Seoul, South Korea"
+      },
+      "about": "Mokpo University is a private university in South Korea, known for its strong programs in the arts and education.",
+      "scholarships": [
+        "Mokpo University Scholarship",
         "International Student Scholarship",
         "Korean Government Scholarship Program"
       ],
