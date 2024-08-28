@@ -3,36 +3,163 @@
     "id": 1,
     "image": "/img/kkuljaem/hanni.jpg",
     "name": "Pham Hanni",
-    "designation": "Ditto"
+    "designation": "Ditto",
+    "biography": "Pham Hanni is a singer known for her incredible vocal talent. She has captivated audiences worldwide with her performances and dedication to her craft.",
+    "education": [
+      "PHD degree in Musicology at University of Seoul (2020)",
+      "Bachelor of Arts in Music at University of Seoul (2015)"
+    ],
+    "contactInfo": {
+      "phone": "+628 7818 140362",
+      "email": "hannipham@kkuljaemkorean.com",
+      "address": "Yongsan Trade Center, Yongsan, Seoul , South Korea"
+    },
+    "socialLinks": {
+      "facebook": "#",
+      "googlePlus": "#",
+      "twitter": "#",
+      "vimeo": "#",
+      "pinterest": "#"
+    },
+    "workingHours": [
+      { "day": "Monday - Friday", "hours": "8.00-20.00" },
+      { "day": "Saturday", "hours": "9.00-18.30" },
+      { "day": "Monday - Thursday", "hours": "9.00-15.00" }
+    ]
   },
   {
     "id": 2,
     "image": "/img/kkuljaem/haerin.jpg",
     "name": "Kang Haerin",
-    "designation": "Supernatural"
+    "designation": "Supernatural",
+    "biography": "Kang Haerin has a strong presence in the industry, known for her unique style and charisma. She continues to inspire many with her work and dedication.",
+    "education": [
+      "Master of Fine Arts in Performing Arts at University of Seoul (2018)",
+      "Bachelor of Arts in Theater Studies at University of Seoul (2014)"
+    ],
+    "contactInfo": {
+      "phone": "+628 7818 140363",
+      "email": "haerin.kang@kkuljaemkorean.com",
+      "address": "Gangnam District, Seoul, South Korea"
+    },
+    "socialLinks": {
+      "facebook": "#",
+      "googlePlus": "#",
+      "twitter": "#",
+      "vimeo": "#",
+      "pinterest": "#"
+    },
+    "workingHours": [
+      { "day": "Monday - Friday", "hours": "10.00-19.00" },
+      { "day": "Saturday", "hours": "11.00-16.00" }
+    ]
   },
   {
     "id": 3,
     "image": "/img/kkuljaem/minji.jpg",
     "name": "Kim Minji",
-    "designation": "Super Shy"
+    "designation": "Super Shy",
+    "biography": "Kim Minji is celebrated for her artistic creativity and innovative approaches in the entertainment industry. She is a role model for many aspiring artists.",
+    "education": [
+      "PHD degree in Visual Arts at University of Seoul (2021)",
+      "Bachelor of Fine Arts at University of Seoul (2016)"
+    ],
+    "contactInfo": {
+      "phone": "+628 7818 140364",
+      "email": "minji.kim@kkuljaemkorean.com",
+      "address": "Seodaemun District, Seoul, South Korea"
+    },
+    "socialLinks": {
+      "facebook": "#",
+      "googlePlus": "#",
+      "twitter": "#",
+      "vimeo": "#",
+      "pinterest": "#"
+    },
+    "workingHours": [
+      { "day": "Monday - Friday", "hours": "9.00-17.00" },
+      { "day": "Saturday", "hours": "10.00-14.00" }
+    ]
   },
   {
     "id": 4,
     "image": "/img/kkuljaem/danielle.jpg",
     "name": "Danielle Marsh",
-    "designation": "How Sweet"
+    "designation": "How Sweet",
+    "biography": "Danielle Marsh is a versatile performer with a deep passion for her craft. Her journey in the industry has been marked by numerous accolades and achievements.",
+    "education": [
+      "Master of Arts in Dance at University of Seoul (2019)",
+      "Bachelor of Arts in Dance at University of Seoul (2015)"
+    ],
+    "contactInfo": {
+      "phone": "+628 7818 140365",
+      "email": "danielle.marsh@kkuljaemkorean.com",
+      "address": "Mapo District, Seoul, South Korea"
+    },
+    "socialLinks": {
+      "facebook": "#",
+      "googlePlus": "#",
+      "twitter": "#",
+      "vimeo": "#",
+      "pinterest": "#"
+    },
+    "workingHours": [
+      { "day": "Monday - Friday", "hours": "8.00-20.00" },
+      { "day": "Saturday", "hours": "9.00-18.30" }
+    ]
   },
   {
     "id": 5,
     "image": "/img/kkuljaem/hyein.jpg",
     "name": "Lee Hyein",
-    "designation": "Hype Boy"
+    "designation": "Hype Boy",
+    "biography": "Lee Hyein has made significant contributions to the entertainment industry, known for his dynamic performances and dedication to his work.",
+    "education": [
+      "Master of Arts in Music at University of Seoul (2020)",
+      "Bachelor of Arts in Music at University of Seoul (2016)"
+    ],
+    "contactInfo": {
+      "phone": "+628 7818 140366",
+      "email": "hyein.lee@kkuljaemkorean.com",
+      "address": "Jongno District, Seoul, South Korea"
+    },
+    "socialLinks": {
+      "facebook": "#",
+      "googlePlus": "#",
+      "twitter": "#",
+      "vimeo": "#",
+      "pinterest": "#"
+    },
+    "workingHours": [
+      { "day": "Monday - Friday", "hours": "9.00-17.00" },
+      { "day": "Saturday", "hours": "10.00-15.00" }
+    ]
   },
   {
     "id": 6,
     "image": "/img/kkuljaem/tooki.jpg",
     "name": "Tokki",
-    "designation": "Attention"
+    "designation": "Attention",
+    "biography": "Tokki is a rising star in the industry, admired for his energy and unique style. His contributions have garnered attention and praise from peers and fans alike.",
+    "education": [
+      "Bachelor of Arts in Performing Arts at University of Seoul (2017)",
+      "Diploma in Music Production at Seoul Music Academy (2013)"
+    ],
+    "contactInfo": {
+      "phone": "+628 7818 140367",
+      "email": "tokki@kkuljaemkorean.com",
+      "address": "Gwangjin District, Seoul, South Korea"
+    },
+    "socialLinks": {
+      "facebook": "#",
+      "googlePlus": "#",
+      "twitter": "#",
+      "vimeo": "#",
+      "pinterest": "#"
+    },
+    "workingHours": [
+      { "day": "Monday - Friday", "hours": "10.00-19.00" },
+      { "day": "Saturday", "hours": "11.00-17.00" }
+    ]
   }
 ]

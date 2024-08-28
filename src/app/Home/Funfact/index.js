@@ -9,7 +9,7 @@ export default function Funfact() {
             <FunfactCard
               icon="icofont icofont-home"
               number="138"
-              desc="University & Community Partners"
+              desc="University Partners"
             />
           </div>
           <div className="col-lg-3 col-md-6 col-12">
@@ -22,7 +22,7 @@ export default function Funfact() {
           <div className="col-lg-3 col-md-6 col-12">
             <FunfactCard
               icon="icofont-simple-smile"
-              number="1124"
+              number="5326"
               desc="Graduated Students"
             />
           </div>

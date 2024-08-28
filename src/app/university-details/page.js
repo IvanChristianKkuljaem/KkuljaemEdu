@@ -1,9 +1,13 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
 import universityData from "@/utils/university.json";
+import ModalVideo from "react-modal-video";
+import { useState } from "react";
+import Video from "../Home/WhyChoose/Video";
 
 export default function UniversityDetails() {
   const univ = universityData[0];
@@ -52,6 +56,16 @@ export default function UniversityDetails() {
                         ></iframe>
                       </div>
                     ))}
+                    {/* <div className="video-image">
+                      <div className="promo-video">
+                        <div className="waves-block">
+                          <div className="waves wave-1"></div>
+                          <div className="waves wave-2"></div>
+                          <div className="waves wave-3"></div>
+                        </div>
+                      </div>
+                      <Video />
+                    </div> */}
                   </div>
                   <h3>Contact Info</h3>
                   <ul className="basic-info">

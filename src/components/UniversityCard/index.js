@@ -27,7 +27,7 @@ export default function UniversityCard({ id, tilt, image, name, designation }) {
             alt={name}
             width={558}
             height={450}
-            style={{ minHeight: 450, maxHeight: 450 }}
+            style={{ height: "auto", width: "auto", maxHeight: 105 }}
           />
           <div className="t-icon">
             <Link href="/university-details">Details</Link>

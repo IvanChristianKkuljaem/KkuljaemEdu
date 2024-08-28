@@ -2,11 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import MentorImg from "../../../public/img/kkuljaem/hanni.jpg";
+import mentorJson from "@/utils/mentor.json";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
 
 export default function MentorDetails() {
+  const mentor = mentorJson[0];
+
   return (
     <>
       <Preloader />
@@ -26,47 +28,52 @@ export default function MentorDetails() {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <Image src={MentorImg} alt="#" width={479} height={551} />
+                <Image
+                  src={mentor.image}
+                  alt={mentor.name}
+                  width={479}
+                  height={551}
+                />
                 <div className="doctor-details-contact">
                   <h3>Contact info</h3>
                   <ul className="basic-info">
                     <li>
                       <i className="icofont-ui-call"></i>
-                      Call : +628 7818 140362
+                      Call : {mentor.contactInfo.phone}
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      hannipham@kkuljaemkorean.com{" "}
+                      {mentor.contactInfo.email}
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      Yongsan Trade Center, Yongsan, Seoul , South Korea
+                      {mentor.contactInfo.address}
                     </li>
                   </ul>
 
                   <ul className="social">
                     <li>
-                      <Link href="#">
+                      <Link href={mentor.socialLinks.facebook}>
                         <i className="icofont-facebook"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href={mentor.socialLinks.googlePlus}>
                         <i className="icofont-google-plus"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href={mentor.socialLinks.twitter}>
                         <i className="icofont-twitter"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href={mentor.socialLinks.vimeo}>
                         <i className="icofont-vimeo"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href={mentor.socialLinks.pinterest}>
                         <i className="icofont-pinterest"></i>
                       </Link>
                     </li>
@@ -75,18 +82,11 @@ export default function MentorDetails() {
                   <div className="doctor-details-work">
                     <h3>Working hours</h3>
                     <ul className="time-sidual">
-                      <li className="day">
-                        Monday - Friday <span>8.00-20.00</span>
-                      </li>
-                      <li className="day">
-                        Saturday <span>9.00-18.30</span>
-                      </li>
-                      <li className="day">
-                        Monday - Thusday <span>9.00-15.00</span>
-                      </li>
-                      <li className="day">
-                        Monday - Friday <span>8.00-20.00</span>
-                      </li>
+                      {mentor.workingHours.map((item, index) => (
+                        <li className="day" key={index}>
+                          {item.day} <span>{item.hours}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -96,69 +96,21 @@ export default function MentorDetails() {
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
                   <div className="doctor-name">
-                    <h3 className="name">Pham Hanni</h3>
-                    <p className="deg">NewJeans</p>
-                    <p className="degree">Singer </p>
+                    <h3 className="name">{mentor.name}</h3>
+                    <p className="deg">{mentor.designation}</p>
+                    <p className="degree">Singer</p>
                   </div>
                   <div className="doctor-details-biography">
                     <h3>Biography</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                      commodo viverra maecenas accumsan lacus vel
-                      facilisis.Lorem ipsum dolor sit amet, consectetur
-                      adipiscing elit, sed do eiusmod tempor incididunt.
-                    </p>
-                    <br />
-                    <p>
-                      Risus commodo viverra maecenas accumsan lacus vel
-                      facilisis.Lorem ipsum dolor sit amet, consectetur
-                      adipiscing elit, sed do eiusmod tempor incididunt.
-                    </p>
+                    <p>{mentor.biography}</p>
                   </div>
                   <div className="doctor-details-biography">
                     <h3>Education</h3>
                     <ul>
-                      <li>
-                        PHD degree in Neorology at University of Mediserv (2006)
-                      </li>
-                      <li>
-                        Master of Neoro Surgery at University of Mediserv (2002)
-                      </li>
-                      <li>
-                        MBBS degree in Neurosciences at University of Mediserv
-                        (2002)
-                      </li>
-                      <li>
-                        Higher Secondary Certificate at Mediserv collage (1991)
-                      </li>
+                      {mentor.education.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
                     </ul>
-                  </div>
-                  <div className="doctor-details-biography">
-                    <h3>Biography</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                      commodo viverra
-                    </p>
-                    <br />
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                      commodo viverra
-                    </p>
-                    <br />
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt consectetur adipiscing
-                      elit, sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                      Risus commodo viverra eiusmod tempor incididunt ut labore
-                      et dolore magna.
-                    </p>
                   </div>
                 </div>
               </div>

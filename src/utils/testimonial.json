@@ -1,0 +1,32 @@
+[
+  {
+    "id": "slider1",
+    "img": "/img/kkuljaem/Hanni-Circle.png",
+    "desc": "Stay in the middle. Like you a little. Don't wanna riddle",
+    "name": "Pham Hanni"
+  },
+  {
+    "id": "slider2",
+    "img": "/img/kkuljaem/Haerin-Circle.png",
+    "desc": "We can go wherever you like. Baby say the words then i'm down",
+    "name": "Kang Haerin"
+  },
+  {
+    "id": "slider3",
+    "img": "/img/kkuljaem/Danielle-Circle.png",
+    "desc": "Cause i'm not gonna be the one who get hurt",
+    "name": "Danielle Marsh"
+  },
+  {
+    "id": "slider4",
+    "img": "/img/kkuljaem/Minji-Circle.png",
+    "desc": "And don't you know how sweet it taste. How sweet it taste",
+    "name": "Kim Minji"
+  },
+  {
+    "id": "slider5",
+    "img": "/img/kkuljaem/Hyein-Circle.png",
+    "desc": "I'm super shy super shy but wait a minute while I make you mine",
+    "name": "Lee Hyein"
+  }
+]
