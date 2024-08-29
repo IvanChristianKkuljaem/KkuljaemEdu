@@ -24,7 +24,7 @@ export default function Sliders(props) {
         "Korea Selatan menawarkan pendidikan berkualitas tinggi dengan universitas top seperti <span>Seoul National University, KAIST, Sung Kyun Kwan University, Hanyang University</span> dan <span>Yonsei University</span>, yang semuanya menduduki peringkat tinggi dalam QS World Rankings. Ini <span>memberikan peluang besar dalam bidang penelitian, teknologi, dan inovasi.</span>",
       button: {
         text: "Get Consultation",
-        link: "https://api.whatsapp.com/send/?phone=6287818140362&text&app_absent=0",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform",
       },
       button2: {
         text: "Learn More",
@@ -39,7 +39,7 @@ export default function Sliders(props) {
         "Tidak hanya peluang kuliah, namun juga peluang beasiswa seperti GKS, siswa internasional bisa mengeksplorasi budaya Korea sambil mendapatkan pendidikan kelas dunia. Universitas-universitas di Korea Selatan juga menawarkan lingkungan kampus yang dinamis dan kesempatan untuk membangun jaringan internasional.",
       button: {
         text: "Get Consultation",
-        link: "/appoinment",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform",
       },
       button2: {
         text: "About Us",

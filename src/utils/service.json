@@ -3,18 +3,51 @@
     "id": 1,
     "icon": "icofont icofont-prescription",
     "title": "Scholarship Preparation GKS Basic",
-    "desc": "<ul><li>Kelas Bahasa Korea Private Basic 1 dan 2/Menengah 1 dan 2 (24x Pertemuan) (Private Class)</li><li>Mentoring session 4x (1on1 Mentor)</li><li>Buku Kkuljaem Korean</li><li>GKS Application Guide and Tips</li><li>Consultation for Mentee’s Uni and Track</li><li>Personal Statement Preparation</li><li>Choosing Universities and Track</li><li>Filling Application Form</li><li>Essay Quick Check</li><li>Personal Statement and Essay Review</li><li>Following up Preparation</li><li>Interview Preparation</li><li>Final QnA</li><li>Final Feedback</li><li>Essay Review (Study Plan dan Personal Statement)</li></ul>"
+    "desc": "<ul><li>Kelas Bahasa Korea Private Basic 1 dan 2/Menengah 1 dan 2 (24x Pertemuan) (Private Class)</li><li>Mentoring session 4x (1on1 Mentor)</li><li>Buku Kkuljaem Korean</li><li>GKS Application Guide and Tips</li><li>Consultation for Mentee’s Uni and Track</li><li>Personal Statement Preparation</li><li>Choosing Universities and Track</li><li>Filling Application Form</li><li>Essay Quick Check</li><li>Personal Statement and Essay Review</li><li>Following up Preparation</li><li>Interview Preparation</li><li>Final QnA</li><li>Final Feedback</li><li>Essay Review (Study Plan dan Personal Statement)</li></ul>",
+    "image": "/img/event/HANYANG.png",
+    "details": {
+      "overview": "This package is tailored for those who are just beginning their GKS scholarship journey.",
+      "highlights": [
+        "Kelas Bahasa Korea Private",
+        "1-on-1 Mentoring Session",
+        "Personal Statement and Essay Review",
+        "Interview Preparation"
+      ],
+      "additionalInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero."
+    }
   },
   {
     "id": 2,
     "icon": "icofont icofont-prescription",
     "title": "Scholarship Preparation GKS Pro",
-    "desc": "<ul><li>Kelas Bahasa Korea Private Basic 1-2, Private Menengah 1-2, Private TOPIK (56x Pertemuan) (Private Class)</li><li>Mentoring session 4x (1on1 Mentor)</li><li>Buku Kkuljaem Korean</li><li>GKS Application Guide and Tips</li><li>Consultation for Mentee’s Uni and Track</li><li>Personal Statement Preparation</li><li>Choosing Universities and Track</li><li>Filling Application Form</li><li>Essay Quick Check</li><li>Personal Statement and Essay Review</li><li>Following up Preparation</li><li>Interview Preparation</li><li>Final QnA</li><li>Final Feedback</li><li>Essay Review (Study Plan dan Personal Statement)</li></ul>"
+    "desc": "<ul><li>Kelas Bahasa Korea Private Basic 1-2, Private Menengah 1-2, Private TOPIK (56x Pertemuan) (Private Class)</li><li>Mentoring session 4x (1on1 Mentor)</li><li>Buku Kkuljaem Korean</li><li>GKS Application Guide and Tips</li><li>Consultation for Mentee’s Uni and Track</li><li>Personal Statement Preparation</li><li>Choosing Universities and Track</li><li>Filling Application Form</li><li>Essay Quick Check</li><li>Personal Statement and Essay Review</li><li>Following up Preparation</li><li>Interview Preparation</li><li>Final QnA</li><li>Final Feedback</li><li>Essay Review (Study Plan dan Personal Statement)</li></ul>",
+    "image": "/img/event/HANYANG.png",
+    "details": {
+      "overview": "A comprehensive package for those who are serious about securing the GKS scholarship.",
+      "highlights": [
+        "Advanced Korean Classes",
+        "Multiple Mentoring Sessions",
+        "Full Application Support",
+        "Final Review and Feedback"
+      ],
+      "additionalInfo": "Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna."
+    }
   },
   {
     "id": 3,
     "icon": "icofont icofont-prescription",
     "title": "Edu Consultant Package",
-    "desc": "<ul><li>Konsultasi dengan Edu Consultant Expert</li><li>Rekomendasi Universitas dan Jurusan</li><li>Pengecekan Dokumen</li><li>Persiapan Dokumen</li><li>Translate Dokumen</li><li>Apostille dan Notaris</li><li>Review essay, study plan dan personal statement</li><li>Online Application</li><li>Kontak dengan universitas tujuan</li><li>Pegurusan visa sampai selesai</li><li>Pick Up di bandara Korea</li>"
+    "desc": "<ul><li>Konsultasi dengan Edu Consultant Expert</li><li>Rekomendasi Universitas dan Jurusan</li><li>Pengecekan Dokumen</li><li>Persiapan Dokumen</li><li>Translate Dokumen</li><li>Apostille dan Notaris</li><li>Review essay, study plan dan personal statement</li><li>Online Application</li><li>Kontak dengan universitas tujuan</li><li>Pegurusan visa sampai selesai</li><li>Pick Up di bandara Korea</li></ul>",
+    "image": "/img/event/HANYANG.png",
+    "details": {
+      "overview": "An all-in-one package for students seeking personalized educational consultancy services.",
+      "highlights": [
+        "Document Preparation",
+        "University Recommendations",
+        "Visa Assistance",
+        "Airport Pick-Up Service"
+      ],
+      "additionalInfo": "Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor."
+    }
   }
 ]

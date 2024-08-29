@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 
-import PortoflioImg1 from "../../../public/img/event/KONKUK.png ";
+import PortoflioImg1 from "../../../public/img/event/KONKUK.png";
 import Image from "next/image";
 
 export default function Sliders() {

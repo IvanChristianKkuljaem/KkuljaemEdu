@@ -1,9 +1,57 @@
+"use client";
+import { useState } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
-import Link from "next/link";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    currentEducation: "",
+    schoolUniversity: "",
+    targetLevel: "",
+    targetUniversity: "",
+    desiredMajor: "",
+    programType: "",
+    intake: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const whatsappNumber = "+6287818140362";
+
+    const message = `
+Halo, Saya Tertarik untuk Konsultasi dengan Kkuljaem Education,
+
+Nama: ${formData.name}
+Kelas/Pendidikan saat ini: ${formData.currentEducation}
+Sekolah/Universitas: ${formData.schoolUniversity}
+Jenjang yg akan diapply (Sekolah Bahasa, S1/S2/S3): ${formData.targetLevel}
+Universitas Tujuan: ${formData.targetUniversity}
+Jurusan yang akan diambil: ${formData.desiredMajor}
+Program Beasiswa/Non Beasiswa: ${formData.programType}
+Intake: ${formData.intake}
+
+Message: ${formData.message}
+
+감사합니다-Terima Kasih!`;
+
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      message.replace(/\n/g, "\n")
+    )}`;
+
+    window.open(whatsappURL, "_blank");
+  };
+
   return (
     <>
       <Preloader />
@@ -35,28 +83,20 @@ export default function Contact() {
                 <div className="contact-us-form">
                   <h2>Contact With Us</h2>
                   <p>
-                    If you have any questions please fell free to contact with
+                    If you have any questions please feel free to contact with
                     us.
                   </p>
 
-                  <form className="form" method="post" action="/mail.php">
+                  <form className="form" onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
                           <input
                             type="text"
                             name="name"
-                            placeholder="Name"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form-group">
-                          <input
-                            type="email"
-                            name="email"
-                            placeholder="Email"
+                            placeholder="Nama"
+                            value={formData.name}
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -65,8 +105,10 @@ export default function Contact() {
                         <div className="form-group">
                           <input
                             type="text"
-                            name="phone"
-                            placeholder="Phone"
+                            name="currentEducation"
+                            placeholder="Kelas/Pendidikan saat ini"
+                            value={formData.currentEducation}
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -75,8 +117,70 @@ export default function Contact() {
                         <div className="form-group">
                           <input
                             type="text"
-                            name="subject"
-                            placeholder="Subject"
+                            name="schoolUniversity"
+                            placeholder="Sekolah/Universitas"
+                            value={formData.schoolUniversity}
+                            onChange={handleChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="targetLevel"
+                            placeholder="Jenjang yg akan diapply (Sekolah Bahasa, S1/S2/S3)"
+                            value={formData.targetLevel}
+                            onChange={handleChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="targetUniversity"
+                            placeholder="Universitas Tujuan"
+                            value={formData.targetUniversity}
+                            onChange={handleChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="desiredMajor"
+                            placeholder="Jurusan yang akan diambil"
+                            value={formData.desiredMajor}
+                            onChange={handleChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="programType"
+                            placeholder="Program Beasiswa/Non Beasiswa"
+                            value={formData.programType}
+                            onChange={handleChange}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="form-group">
+                          <input
+                            type="text"
+                            name="intake"
+                            placeholder="Intake"
+                            value={formData.intake}
+                            onChange={handleChange}
                             required
                           />
                         </div>
@@ -86,26 +190,18 @@ export default function Contact() {
                           <textarea
                             name="message"
                             placeholder="Your Message"
+                            value={formData.message}
+                            onChange={handleChange}
                             required
                           ></textarea>
                         </div>
                       </div>
                       <div className="col-12">
                         <div className="form-group login-btn">
-                          <Link href="/mail-success">
-                            <button className="btn" type="submit">
-                              Send
-                            </button>
-                          </Link>
+                          <button className="btn" type="submit">
+                            Send
+                          </button>
                         </div>
-                        {/* <div className="checkbox">
-                          <div className="form-check">
-                            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                            <label className="form-check-label" for="flexCheckDefault">
-                              Do you want to subscribe to our Newsletter?
-                            </label>
-                          </div>
-                        </div> */}
                       </div>
                     </div>
                   </form>

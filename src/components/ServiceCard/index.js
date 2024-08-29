@@ -10,7 +10,8 @@ export default function ServiceCard(props) {
         style={{ marginTop: 6 }}
       ></i>
       <h4>
-        <Link href={`/service-details/${id}`}>{title}</Link>
+        {/* <Link href={`/service-details/${id}`}>{title}</Link> */}
+        <Link href="/service-details">{title}</Link>
       </h4>
       <div
         dangerouslySetInnerHTML={{
