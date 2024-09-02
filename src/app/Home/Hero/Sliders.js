@@ -21,7 +21,7 @@ export default function Sliders(props) {
       bgImg: HeroBg1,
       title: "Why Study in <span>South Korea?</span>",
       subTitle:
-        "Korea Selatan menawarkan pendidikan berkualitas tinggi dengan universitas top seperti <span>Seoul National University, KAIST, Sung Kyun Kwan University, Hanyang University</span> dan <span>Yonsei University</span>, yang semuanya menduduki peringkat tinggi dalam QS World Rankings. Ini <span>memberikan peluang besar dalam bidang penelitian, teknologi, dan inovasi.</span>",
+        "Tidak hanya peluang kuliah yang tinggi, Korea Selatan banyak menyediakan beasiswa seperti GKS, dan beasiswa dari universitas. Siswa internasional juga dapat mengeksplor budaya Korea sambil mendapatkan pendidikan kelas dunia. Universitas-universitas di Korea Selatan menawarkan lingkungan kampus yang dinamis dan kesempatan untuk membangun koneksi internasional dengan prospek kerja yang gemilang bagi para lulusannya.",
       button: {
         text: "Get Consultation",
         link: "https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform",

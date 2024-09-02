@@ -23,7 +23,7 @@ export default function HeaderMiddle() {
                 <div className="single-widget">
                   <i className="icofont-clock-time"></i>
                   <p>Opeening Time</p>
-                  <h4>Mon-Sat: 9.00-18.00</h4>
+                  <h4>Mon-Fri: 9.00-18.00</h4>
                 </div>
 
                 <div className="single-widget button">

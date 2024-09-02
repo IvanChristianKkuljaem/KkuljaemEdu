@@ -1,0 +1,77 @@
+[
+  {
+    "category": "Global Korea Scholarship",
+    "questions": [
+      {
+        "id": "1",
+        "question": "GKS untuk jenjang apa saja?",
+        "answer": "Associate degree, Bachelor degree (S1), Master (S2), PhD (S3) dan Research degree"
+      },
+      {
+        "id": "2",
+        "question": "Jumlah siswa di kelas GKS Group Mentoring berapa orang?",
+        "answer": "GKS Group Mentoring Class berjumlah 5 - 10 siswa/sesi"
+      },
+      {
+        "id": "3",
+        "question": "Berapa lama durasi mentoring yang dilakukan setiap sesi?",
+        "answer": "1 sesi berlangsung selama 100 menit"
+      },
+      {
+        "id": "4",
+        "question": "Mentoring GKS akan mendapat apa saja?",
+        "answer": "Penjelasan mengenai guidelines, konsultasi university track & embassy track, persiapan dokumen, dan masih banyak lagi"
+      },
+      {
+        "id": "5",
+        "question": "Apakah bisa request jadwal sendiri untuk mentoring?",
+        "answer": "Pada kelas mentoring GKS Private siswa Kkuljaem bisa mengatur waktu untuk kelas, namun pada kelas mentoring GKS Group jadwal telah ditentukan sesuai Batch yang sedang dibuka"
+      },
+      {
+        "id": "6",
+        "question": "Apakah pembayaran dapat dicicil?",
+        "answer": "Bisa dicicil untuk program tertentu"
+      },
+      {
+        "id": "7",
+        "question": "Untuk mentor apakah kita dapat memilih sendiri atau ditentukan?",
+        "answer": "Pada kelas mentoring GKS Private siswa Kkuljaem dapat memilih mentor, namun pada kelas mentoring GKS Group mentor telah ditentukan"
+      }
+    ]
+  },
+  {
+    "category": "Education Consultant",
+    "questions": [
+      {
+        "id": "8",
+        "question": "Apakah ada batasan untuk konsultasi?",
+        "answer": "Tidak ada batasan pertemuan untuk konsultasi (Unlimited)."
+      },
+      {
+        "id": "9",
+        "question": "Kkuljaem Edu bisa bantu apa saja?",
+        "answer": "Kkuljaem Edu akan membantu mulai dari proses konsultasi, pemilihan universitas dan jurusan, kontak supervisor, aplikasi visa, hingga penjemputan bandara oleh tim Kkuljaem Edu ketika kamu sudah tiba di Korea Selatan."
+      },
+      {
+        "id": "10",
+        "question": "Apakah ada universitas di Korea yang memberikan beasiswa?",
+        "answer": "Tentu saja ada, hampir semua universitas memberikan beasiswa."
+      },
+      {
+        "id": "11",
+        "question": "Bagaimana skema bila ingin konsultasi secara offline?",
+        "answer": "Untuk konsultasi langsung secara offline, kamu dapat langsung mengunjungi kantor Kkuljaem di Rukan Cordoba, Jl. Green Lake City Boulevard No.7 Blok F, Petir, Kec. Cipondoh, Kota Tangerang, Banten 11750."
+      },
+      {
+        "id": "12",
+        "question": "Apakah pelunasan dilakukan di tahap awal sebelum konsultasi dimulai?",
+        "answer": "Pelunasan Edu Consultant Package dibagi menjadi 3 tahap pembayaran."
+      },
+      {
+        "id": "13",
+        "question": "Apakah Kkuljaem dapat memberikan guarantee 100% lulus?",
+        "answer": "Kkuljaem Edu dapat memberikan jaminan 100% lulus khusus untuk universitas yang telah bekerja sama dengan Kkuljaem Edu*m"
+      }
+    ]
+  }
+]

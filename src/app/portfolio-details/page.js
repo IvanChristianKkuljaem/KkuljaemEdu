@@ -1,22 +1,33 @@
+"use client";
+import { useState } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Sliders from "./Sliders";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
+import portofolioData from "@/utils/portofolio.json";
 
 export default function PortfolioDetails() {
+  // Select the first portfolio item from the JSON data
+  const [portfolioDetails] = useState(portofolioData.portfolioItems[0]);
+
+  if (!portfolioDetails) {
+    return <Preloader />;
+  }
+
+  const breadcrumbItems = [
+    { href: "/", text: "Home" },
+    { href: "/portfolio-details", text: "Portfolio Details" },
+  ];
+
   return (
     <>
-      <Preloader />
       <Header />
 
       <Breadcrumbs
         title="Portfolio Details"
-        breadcrumbItems={[
-          { href: "/", text: "Home" },
-          { href: "/portofolio-details", text: "Portofolio Details" },
-        ]}
+        breadcrumbItems={breadcrumbItems}
       />
 
       <section className="pf-details section">
@@ -25,74 +36,42 @@ export default function PortfolioDetails() {
             <div className="col-12">
               <div className="inner-content">
                 <div className="image-slider">
-                  <Sliders />
+                  <Sliders sliders={portfolioDetails.sliders} />
                 </div>
                 <div className="date">
                   <ul>
                     <li>
-                      <span>Category :</span> Heart Surgery
+                      <span>Category :</span> {portfolioDetails.category}
                     </li>
                     <li>
-                      <span>Date :</span> April 20, 2019
+                      <span>Date :</span> {portfolioDetails.date}
                     </li>
                     <li>
-                      <span>Client :</span> Suke Agency
+                      <span>Partner :</span> {portfolioDetails.partner}
                     </li>
                     <li>
-                      <span>Ags :</span> Typo
+                      <span>Location :</span> {portfolioDetails.location}
                     </li>
                   </ul>
                 </div>
                 <div className="body-text">
                   <h3>Here is the name of this project here</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor a ti incididunt ut labore et dolore to
-                    in magna aliqua. Ut enim ad minim veniam, quis to the in
-                    nostrud.abore et dolore magna aliqua uis nostrud.Lorem ipsum
-                    dolor sit amet, in a in to in a consectetur.ncididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    to the in nostrud.abore et dolore magna in a aliqua uis
-                    nostrud.Lorem ipsum dolor sit amet, in aed do eiusmod
-                  </p>
-                  <p>
-                    ncididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis to the in nostrud.abore et dolore magna to in
-                    aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do
-                    eiusmod.ncididunt ut labore et dolore magna aliqua.{" "}
-                  </p>
-                  <p>
-                    ncididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis to the in nostrud.abore et dolore magna a
-                    aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed do
-                    eiusmod.ncididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis to the in nostrud.abore et dolore
-                    magna aliqua uis nostrud.Lorem ipsum dolor sit amet, in aed
-                    do eiusmod. dolor sit amet, in aed do eiusmod.ncididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    to the in nostrud.abore et dolore magna aliqua uis nostrud.
-                  </p>
+                  {portfolioDetails.description?.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
                   <div className="share">
                     <h4>Share Now -</h4>
                     <ul>
-                      <li>
-                        <Link href="#">
-                          <i
-                            className="fa fa-facebook-official"
-                            aria-hidden="true"
-                          ></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        </Link>
-                      </li>
+                      {portfolioDetails.socialLinks?.map((link, index) => (
+                        <li key={index}>
+                          <Link href={link.href}>
+                            <i
+                              className={`fa ${link.iconClass}`}
+                              aria-hidden="true"
+                            ></i>
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>

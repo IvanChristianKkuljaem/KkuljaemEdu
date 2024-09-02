@@ -16,8 +16,11 @@ export default function Schedule() {
                     </div>
                     <div className="single-content">
                       <span>Scholarship Program</span>
-                      <h4>Preparation</h4>
-                      <p>Konsultasi Unlimited dengan Edu Consultant Expert</p>
+                      <h4>MENTORING</h4>
+                      <p>
+                        Bimbingan persiapan beasiswa ke luar negeri dengan
+                        Awardee scholarship
+                      </p>
                       <Link href="/service">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
@@ -30,12 +33,15 @@ export default function Schedule() {
                 <div className="single-schedule middle">
                   <div className="inner">
                     <div className="icon">
-                      <i className="icofont-prescription"></i>
+                      <i className="icofont-teacher"></i>
                     </div>
                     <div className="single-content">
                       <span>Kkuljaem Edu</span>
-                      <h4>Services</h4>
-                      <p>Konsultasi via zoom dengan pihak Universitas Korea</p>
+                      <h4>SERVICES</h4>
+                      <p>
+                        Konsultasi dengan Edu Consultant Expert dan pihak
+                        Universitas di Korea
+                      </p>
                       <Link href="/pricing">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
@@ -48,23 +54,13 @@ export default function Schedule() {
                 <div className="single-schedule last">
                   <div className="inner">
                     <div className="icon">
-                      <i className="icofont-ui-clock"></i>
+                      <i className="icofont-prescription"></i>
                     </div>
                     <div className="single-content">
-                      <span>Schedule</span>
-                      <h4>Opening Hours</h4>
-                      <ul className="time-sidual">
-                        <li className="day">
-                          Monday - Friday <span>10.00-18.00</span>
-                        </li>
-                        <li className="day">
-                          Saturday, Sunday <span>Closed</span>
-                        </li>
-                        {/* <li className="day">
-                          Sunday <span>Closed</span>
-                        </li> */}
-                      </ul>
-                      <Link href="/contact">
+                      <span>Document Management</span>
+                      <h4>PACKAGE</h4>
+                      <p>Layanan penerjemah dan apostille dokumen terpercaya</p>
+                      <Link href="/workshops">
                         LEARN MORE<i className="fa fa-long-arrow-right"></i>
                       </Link>
                     </div>

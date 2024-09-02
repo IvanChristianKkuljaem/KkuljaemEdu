@@ -1,0 +1,56 @@
+{
+  "portfolioItems": [
+    {
+      "id": "slider1",
+      "category": "Korean",
+      "date": "April 20, 2024",
+      "partner": "Chingu Project",
+      "location": "Kkuljaem Office",
+      "description": [
+        "Lorem ipsum dolor sit amet...",
+        "Ncididunt ut labore et dolore magna aliqua...",
+        "Ncididunt ut labore et dolore magna aliqua..."
+      ],
+      "sliders": [
+        { "id": "slider1", "img": "/img/event/KONKUK.png" },
+        { "id": "slider2", "img": "/img/event/KONKUK.png" },
+        { "id": "slider3", "img": "/img/event/KONKUK.png" }
+      ],
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "iconClass": "fa-facebook-official",
+          "href": "#"
+        },
+        { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+        { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+      ]
+    },
+    {
+      "id": "slider2",
+      "category": "Japanese",
+      "date": "May 10, 2024",
+      "partner": "Project Sakura",
+      "location": "Tokyo Office",
+      "description": [
+        "Description for the second portfolio item...",
+        "More details...",
+        "Even more details..."
+      ],
+      "sliders": [
+        { "id": "slider1", "img": "/img/event/View2.gif" },
+        { "id": "slider2", "img": "/img/event/View2.gif" },
+        { "id": "slider3", "img": "/img/event/View2.gif" }
+      ],
+      "socialLinks": [
+        {
+          "platform": "Facebook",
+          "iconClass": "fa-facebook-official",
+          "href": "#"
+        },
+        { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+        { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+      ]
+    }
+  ]
+}

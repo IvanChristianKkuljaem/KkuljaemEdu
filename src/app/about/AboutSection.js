@@ -12,40 +12,53 @@ export default function AboutSection() {
                 <span>About Us</span>
                 <h2>Short Story About Kkuljaem Edu Since 2022</h2>
                 <p>
-                  Kkuljaem Edu adalah lembaga konsultasi studi ke Korea Selatan
-                  yang didirikan oleh Han Jongdae (Bandung Oppa) di tahun 2022.
-                  Hingga saat ini, kami telah berhasil membantu banyak siswa
-                  untuk berangkat dan belajar di Korea Selatan, dan terus
-                  mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk
-                  studi ke Korea Selatan.
+                  Kkuljaem Edu adalah Konsultan Pendidikan Spesialis Pendidikan
+                  Tinggi di Korea Selatan yang didirikan oleh Bandung Oppa (Han
+                  Jongdae) pada tahun 2022. Selama bertahun-tahun, kami telah
+                  mendukung beragam kelompok siswa dalam perjalanan mereka ke
+                  Korea Selatan, membantu siswa saat proses pendaftaran,
+                  mereview dokumen yang diperlukan, dan mempersiapkan
+                  petualangan akademis mereka. Komitmen kami yang teguh terhadap
+                  siswa, mendorong kami untuk terus meningkatkan layanan kami,
+                  memastikan bahwa kami memberikan dukungan terbaik saat mereka
+                  mengejar impian untuk belajar ke Korea Selatan.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
                         <i className="fa fa-caret-right"></i>One-Stop Solution
+                        ke Korea Selatan
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Gratis Konsultasi
+                        <i className="fa fa-caret-right"></i>Universitas Tujuan
+                        Lengkap
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Dijamin 100% Lolos
+                        <i className="fa fa-caret-right"></i>Konsultasi GRATIS
+                      </li>
+                      <li>
+                        <i className="fa fa-caret-right"></i>Informasi Eksklusif
+                        Seputar Pendidikan
                       </li>
                     </ul>
                   </div>
                   <div className="col-lg-6">
                     <ul className="list">
                       <li>
-                        <i className="fa fa-caret-right"></i>Universitas Tujuan
-                        Lengkap
+                        <i className="fa fa-caret-right"></i>Jaminan 100% Lolos
                       </li>
                       <li>
                         <i className="fa fa-caret-right"></i>Konselor Lulusan
                         Korea Selatan
                       </li>
                       <li>
-                        <i className="fa fa-caret-right"></i>Kantor di Korea dan
-                        Indonesia
+                        <i className="fa fa-caret-right"></i>Kantor di Korea
+                        Selatan dan Indonesia
+                      </li>
+                      <li>
+                        <i className="fa fa-caret-right"></i>Komunitas Kkuljaem
+                        di Korea Selatan
                       </li>
                     </ul>
                   </div>
