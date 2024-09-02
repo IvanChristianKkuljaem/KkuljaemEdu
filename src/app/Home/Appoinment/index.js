@@ -1,7 +1,6 @@
 import Image from "next/image";
 import SectionHead from "@/components/SectionHead";
 
-import ContactImg from "../../../../public/img/contact-img.png";
 import DateInput from "./DateInput";
 
 export default function Appoinment() {
@@ -95,7 +94,7 @@ export default function Appoinment() {
             </div>
             <div className="col-lg-6 col-md-12 ">
               <div className="appointment-image">
-                <Image src={ContactImg} alt="#" width={522} height={523} />
+                {/* <Image src={ContactImg} alt="#" width={522} height={523} /> */}
               </div>
             </div>
           </div>

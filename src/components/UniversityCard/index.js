@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Tilt } from "react-tilt";
-import TeamImg1 from "../../../public/img/team1.jpg";
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
@@ -23,7 +22,7 @@ export default function UniversityCard({ id, tilt, image, name, designation }) {
       <div className="single-team">
         <div className="t-head">
           <Image
-            src={image ? image : TeamImg1}
+            src={image}
             alt={name}
             width={558}
             height={450}

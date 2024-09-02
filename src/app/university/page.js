@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
