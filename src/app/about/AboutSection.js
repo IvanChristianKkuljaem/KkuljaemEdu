@@ -14,14 +14,17 @@ export default function AboutSection() {
                 <p>
                   Kkuljaem Edu adalah Konsultan Pendidikan Spesialis Pendidikan
                   Tinggi di Korea Selatan yang didirikan oleh Bandung Oppa (Han
-                  Jongdae) pada tahun 2022. Selama bertahun-tahun, kami telah
-                  mendukung beragam kelompok siswa dalam perjalanan mereka ke
-                  Korea Selatan, membantu siswa saat proses pendaftaran,
-                  mereview dokumen yang diperlukan, dan mempersiapkan
-                  petualangan akademis mereka. Komitmen kami yang teguh terhadap
-                  siswa, mendorong kami untuk terus meningkatkan layanan kami,
-                  memastikan bahwa kami memberikan dukungan terbaik saat mereka
-                  mengejar impian untuk belajar ke Korea Selatan.
+                  Jongdae) pada tahun 2022.
+                </p>
+                <p>
+                  Selama bertahun-tahun, kami telah mendukung beragam kelompok
+                  siswa dalam perjalanan mereka ke Korea Selatan, membantu siswa
+                  saat proses pendaftaran, mereview dokumen yang diperlukan, dan
+                  mempersiapkan petualangan akademis mereka. Komitmen kami yang
+                  teguh terhadap siswa, mendorong kami untuk terus meningkatkan
+                  layanan kami, memastikan bahwa kami memberikan dukungan
+                  terbaik saat mereka mengejar impian untuk belajar ke Korea
+                  Selatan.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">

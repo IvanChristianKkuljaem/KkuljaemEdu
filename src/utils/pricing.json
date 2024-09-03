@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Document Package",
+    "icon": "icofont-law-document",
+    "price": 8,
+    "features": [
+      { "name": "Documents Preparation", "status": true },
+      { "name": "Apostile", "status": true },
+      { "name": "Translate", "status": true }
+    ]
+  },
+  {
+    "title": "Visa Package",
+    "icon": "icofont-visa",
+    "price": 8,
+    "features": [
+      { "name": "Visa Processing", "status": true },
+      { "name": "Visa Fee", "status": true },
+      { "name": "Visa", "status": true }
+    ]
+  },
+  {
+    "title": "Consultation Package",
+    "icon": "icofont-package",
+    "price": 5,
+    "features": [
+      { "name": "University and Major Consultation", "status": true },
+      { "name": "Online Application", "status": true },
+      { "name": "Contact with University", "status": true },
+      { "name": "Contact other legal documents", "status": true }
+    ]
+  }
+]

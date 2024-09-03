@@ -1,48 +1,28 @@
+"use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-
-const Data = [
-  {
-    title: "Document Package",
-    icon: "icofont-law-document",
-    price: 8,
-    features: [
-      { name: "Documents Preparation", status: true },
-      { name: "Apostile", status: true },
-      { name: "Translate", status: true },
-      { name: "Donec ultricies metus", status: false },
-      // { name: "Pellentesque eget nibh", status: false },
-    ],
-  },
-  {
-    title: "Visa Package",
-    icon: "icofont-visa",
-    price: 8,
-    features: [
-      { name: "Visa Processing", status: true },
-      { name: "Visa Fee", status: true },
-      { name: "Visa", status: true },
-      { name: "Donec ultricies metus", status: false },
-      // { name: "Pellentesque eget nibh", status: false },
-    ],
-  },
-  {
-    title: "Consultation Package",
-    icon: "icofont-package",
-    price: 5,
-    features: [
-      { name: "University and Major Consultation", status: true },
-      { name: "Online Application", status: true },
-      { name: "Contact with University", status: true },
-      { name: "Contact other legal documents", status: true },
-      // { name: "Pellentesque eget nibh", status: true },
-    ],
-  },
-];
+import pricingData from "@/utils/pricing.json";
 
 export default function PricingData() {
+  const [packageData, setPackageData] = useState(pricingData);
+
+  // useEffect(() => {
+  //   fetch("/pricing.json")
+  //     .then((response) => response.json())
+  //     .then((data) => setPackageData(data));
+  // }, []);
+
+  const handleButtonClick = (pricingTitle) => {
+    const message = `Halo, Saya Ingin Membeli ${pricingTitle} dari Kkuljaem Education, Apakah Bisa Dibantu?`;
+    const url = `https://wa.me/6287818140362?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <>
-      {Data.map((pricing, index) => (
+      {packageData.map((pricing, index) => (
         <div key={index} className="col-lg-4 col-md-12 col-12">
           <div className="single-table" style={{ minHeight: "525px" }}>
             <div className="table-head">
@@ -70,9 +50,12 @@ export default function PricingData() {
               ))}
             </ul>
             <div className="table-bottom">
-              <Link className="btn" href="#">
+              <button
+                className="btn"
+                onClick={() => handleButtonClick(pricing.title)}
+              >
                 Buy Now
-              </Link>
+              </button>
             </div>
           </div>
         </div>

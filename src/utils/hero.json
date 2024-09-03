@@ -1,0 +1,44 @@
+[
+  {
+    "id": "slider1",
+    "bgImg": "/img/kkuljaem/Slider1.jpg",
+    "title": "Why <span>South Korea?</span>",
+    "subTitle": "Tidak hanya peluang kuliah yang tinggi, Korea Selatan banyak menyediakan beasiswa seperti GKS, dan beasiswa dari universitas. Siswa internasional juga dapat mengeksplor budaya Korea sambil mendapatkan pendidikan kelas dunia. Universitas-universitas di Korea Selatan menawarkan lingkungan kampus yang dinamis dan kesempatan untuk membangun koneksi internasional dengan prospek kerja yang gemilang bagi para lulusannya.",
+    "button": {
+      "text": "Get Consultation",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform"
+    },
+    "button2": {
+      "text": "Learn More",
+      "link": "/about"
+    }
+  },
+  {
+    "id": "slider2",
+    "bgImg": "/img/kkuljaem/Slider2.jpg",
+    "title": "Why <span>Kkuljaem Education?</span>",
+    "subTitle": "Kkuljaem Education memberikan layanan sesuai kebutuhan siswa. Bersama dengan Edu Consultant Expert yang dapat membantu segala persiapan untuk meraih Universitas Impianmu!",
+    "button": {
+      "text": "Get Consultation",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform"
+    },
+    "button2": {
+      "text": "About Us",
+      "link": "/about"
+    }
+  },
+  {
+    "id": "slider3",
+    "bgImg": "/img/blog/Slider3.jpg",
+    "title": "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
+    "subTitle": "Kami telah berhasil membantu banyak siswa untuk berangkat dan belajar di Korea Selatan, dan terus mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk studi ke Korea Selatan.",
+    "button": {
+      "text": "Get Consultation",
+      "link": "/appoinment"
+    },
+    "button2": {
+      "text": "Contact Now",
+      "link": "/contact"
+    }
+  }
+]
