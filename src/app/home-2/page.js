@@ -12,7 +12,6 @@ import Pricing from "../Home/Pricing";
 import Team from "../Home/Team";
 import Blog from "../Home/News";
 import Clients from "../Home/Clients";
-import Appoinment from "../Home/Appoinment";
 import Preloader from "@/components/Preloader";
 
 export default function HomeTwo() {
@@ -33,7 +32,6 @@ export default function HomeTwo() {
       <Team />
       <Blog />
       <Clients />
-      <Appoinment />
     </>
   );
 }
