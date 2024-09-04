@@ -39,6 +39,7 @@ export default function Service() {
                   icon={service.icon}
                   title={service.title}
                   desc={service.desc}
+                  link={service.link}
                 />
               </div>
             ))}
