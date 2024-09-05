@@ -37,7 +37,7 @@ export default function PricingData() {
                 </p>
               </div>
             </div>
-            <ul className="table-list">
+            <ul className="table-list" style={{ minHeight: 175 }}>
               {pricing.features.map((feature, index) => (
                 <li key={index} className={feature.status ? "" : "cross"}>
                   {feature.status ? (

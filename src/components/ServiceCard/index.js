@@ -18,9 +18,16 @@ export default function ServiceCard(props) {
         dangerouslySetInnerHTML={{
           __html: desc,
         }}
+        style={{ minHeight: 435 }}
       />
       <br></br>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          marginTop: "auto",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
         <Link href={link} target="_blank">
           <button className="btn" style={{ width: "300px" }}>
             Click Here
