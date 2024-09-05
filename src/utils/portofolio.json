@@ -1,56 +1,170 @@
-{
-  "portfolioItems": [
-    {
-      "id": "slider1",
-      "category": "Korean",
-      "date": "April 20, 2024",
-      "partner": "Chingu Project",
-      "location": "Kkuljaem Office",
-      "description": [
-        "Lorem ipsum dolor sit amet...",
-        "Ncididunt ut labore et dolore magna aliqua...",
-        "Ncididunt ut labore et dolore magna aliqua..."
-      ],
-      "sliders": [
-        { "id": "slider1", "img": "/img/event/KONKUK.png" },
-        { "id": "slider2", "img": "/img/event/KONKUK.png" },
-        { "id": "slider3", "img": "/img/event/KONKUK.png" }
-      ],
-      "socialLinks": [
-        {
-          "platform": "Facebook",
-          "iconClass": "fa-facebook-official",
-          "href": "#"
-        },
-        { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
-        { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
-      ]
-    },
-    {
-      "id": "slider2",
-      "category": "Japanese",
-      "date": "May 10, 2024",
-      "partner": "Project Sakura",
-      "location": "Tokyo Office",
-      "description": [
-        "Description for the second portfolio item...",
-        "More details...",
-        "Even more details..."
-      ],
-      "sliders": [
-        { "id": "slider1", "img": "/img/event/View2.gif" },
-        { "id": "slider2", "img": "/img/event/View2.gif" },
-        { "id": "slider3", "img": "/img/event/View2.gif" }
-      ],
-      "socialLinks": [
-        {
-          "platform": "Facebook",
-          "iconClass": "fa-facebook-official",
-          "href": "#"
-        },
-        { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
-        { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Belajar Budaya Korea Bersama Chingu Project",
+    "category": "Korean",
+    "date": "April 20, 2024",
+    "partner": "Chingu Project",
+    "location": "Kkuljaem Office",
+    "image": "/img/event/View1.gif",
+    "description": [
+      "Lorem ipsum dolor sit amet...",
+      "Ncididunt ut labore et dolore magna aliqua...",
+      "Ncididunt ut labore et dolore magna aliqua..."
+    ],
+    "sliders": [
+      { "sliders_id": 1, "img": "/img/event/event1.jpg" },
+      { "sliders_id": 2, "img": "/img/event/event2.jpg" },
+      { "sliders_id": 3, "img": "/img/event/event3.jpg" }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "iconClass": "fa-facebook-official",
+        "href": "#"
+      },
+      { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+      { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Belajar Budaya Korea Bersama Chingu Project",
+    "category": "Japanese",
+    "date": "May 10, 2024",
+    "partner": "Project Sakura",
+    "location": "Tokyo Office",
+    "description": [
+      "Description for the second portfolio item...",
+      "More details...",
+      "Even more details..."
+    ],
+    "image": "/img/event/View2.gif",
+    "sliders": [
+      { "sliders_id": 1, "img": "/img/event/event1.jpg" },
+      { "sliders_id": 2, "img": "/img/event/event2.jpg" },
+      { "sliders_id": 3, "img": "/img/event/event3.jpg" }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "iconClass": "fa-facebook-official",
+        "href": "#"
+      },
+      { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+      { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Belajar Budaya Korea Bersama Chingu Project",
+    "category": "Korean",
+    "date": "April 20, 2024",
+    "partner": "Chingu Project",
+    "location": "Kkuljaem Office",
+    "image": "/img/event/View3.gif",
+    "description": [
+      "Lorem ipsum dolor sit amet...",
+      "Ncididunt ut labore et dolore magna aliqua...",
+      "Ncididunt ut labore et dolore magna aliqua..."
+    ],
+    "sliders": [
+      { "sliders_id": 1, "img": "/img/event/event1.jpg" },
+      { "sliders_id": 2, "img": "/img/event/event2.jpg" },
+      { "sliders_id": 3, "img": "/img/event/event3.jpg" }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "iconClass": "fa-facebook-official",
+        "href": "#"
+      },
+      { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+      { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Belajar Budaya Korea Bersama Chingu Project",
+    "category": "Japanese",
+    "date": "May 10, 2024",
+    "partner": "Project Sakura",
+    "location": "Tokyo Office",
+    "description": [
+      "Description for the second portfolio item...",
+      "More details...",
+      "Even more details..."
+    ],
+    "image": "/img/event/View4.gif",
+    "sliders": [
+      { "sliders_id": 1, "img": "/img/event/event1.jpg" },
+      { "sliders_id": 2, "img": "/img/event/event2.jpg" },
+      { "sliders_id": 3, "img": "/img/event/event3.jpg" }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "iconClass": "fa-facebook-official",
+        "href": "#"
+      },
+      { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+      { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Belajar Budaya Korea Bersama Chingu Project",
+    "category": "Korean",
+    "date": "April 20, 2024",
+    "partner": "Chingu Project",
+    "location": "Kkuljaem Office",
+    "image": "/img/event/event5.jpg",
+    "description": [
+      "Lorem ipsum dolor sit amet...",
+      "Ncididunt ut labore et dolore magna aliqua...",
+      "Ncididunt ut labore et dolore magna aliqua..."
+    ],
+    "sliders": [
+      { "sliders_id": 1, "img": "/img/event/event1.jpg" },
+      { "sliders_id": 2, "img": "/img/event/event2.jpg" },
+      { "sliders_id": 3, "img": "/img/event/event3.jpg" }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "iconClass": "fa-facebook-official",
+        "href": "#"
+      },
+      { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+      { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Belajar Budaya Korea Bersama Chingu Project",
+    "category": "Japanese",
+    "date": "May 10, 2024",
+    "partner": "Project Sakura",
+    "location": "Tokyo Office",
+    "description": [
+      "Description for the second portfolio item...",
+      "More details...",
+      "Even more details..."
+    ],
+    "image": "/img/event/View2.gif",
+    "sliders": [
+      { "sliders_id": 1, "img": "/img/event/event1.jpg" },
+      { "sliders_id": 2, "img": "/img/event/event2.jpg" },
+      { "sliders_id": 3, "img": "/img/event/event3.jpg" }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "iconClass": "fa-facebook-official",
+        "href": "#"
+      },
+      { "platform": "Twitter", "iconClass": "fa-twitter", "href": "#" },
+      { "platform": "LinkedIn", "iconClass": "fa-linkedin", "href": "#" }
+    ]
+  }
+]
