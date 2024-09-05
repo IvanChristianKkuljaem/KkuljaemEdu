@@ -16,7 +16,7 @@ const defaultOptions = {
   easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
 };
 
-export default function TeamCard({ tilt, image, name, designation }) {
+export default function TeamCard({ tilt, id, image, name, designation }) {
   return (
     <Tilt options={defaultOptions} className={tilt ? tilt : ""}>
       <div className="single-team">
@@ -29,13 +29,13 @@ export default function TeamCard({ tilt, image, name, designation }) {
             style={{ minHeight: 465, maxHeight: 465 }}
           />
           <div className="t-icon">
-            <Link href="/mentor-details">Details</Link>
+            <Link href={`/mentor-details/${id}`}>Details</Link>
           </div>
         </div>
         <div className="t-bottom">
           <p>{designation}</p>
           <h2>
-            <Link href="/mentor-details">{name}</Link>
+            <Link href={`/mentor-details/${id}`}>{name}</Link>
           </h2>
         </div>
       </div>

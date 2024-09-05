@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Sliders from "./Sliders";
 
 export default function Clients() {
@@ -7,7 +8,9 @@ export default function Clients() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-12">
-              <Sliders />
+              <Link href={"/university"}>
+                <Sliders />
+              </Link>
             </div>
           </div>
         </div>

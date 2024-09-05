@@ -1,16 +1,25 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
+import { useParams } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
 import universityData from "@/utils/university.json";
-import ModalVideo from "react-modal-video";
-import { useState } from "react";
-import Video from "../Home/WhyChoose/Video";
+import { useState, useEffect } from "react";
 
 export default function UniversityDetails() {
-  const univ = universityData[0];
+  const { id } = useParams();
+  const [univ, setUniv] = useState(null);
+
+  useEffect(() => {
+    const university = universityData.find((item) => item.id === parseInt(id));
+    setUniv(university);
+  }, [id]);
+
+  if (!univ) {
+    return <Preloader />;
+  }
+
   const videos = Array.isArray(univ.videos) ? univ.videos : [univ.videos];
 
   return (

@@ -9,7 +9,7 @@ import Services from "../Home/Services";
 import Testimonial from "../Home/Testimonials";
 import Departments from "../Home/Departments";
 import Pricing from "../Home/Pricing";
-import Team from "../Home/Team";
+import Team from "../Home/Mentor";
 import Blog from "../Home/News";
 import Clients from "../Home/Clients";
 import Preloader from "@/components/Preloader";

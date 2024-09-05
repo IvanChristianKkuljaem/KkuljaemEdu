@@ -29,13 +29,13 @@ export default function UniversityCard({ id, tilt, image, name, designation }) {
             style={{ height: "auto", width: "auto", maxHeight: 105 }}
           />
           <div className="t-icon">
-            <Link href="/university-details">Details</Link>
+            <Link href={`/university-details/${id}`}>Details</Link>
           </div>
         </div>
         <div className="t-bottom">
           <p>{designation}</p>
           <h2>
-            <Link href="/university-details">{name}</Link>
+            <Link href={`/university-details/${id}`}></Link>
           </h2>
         </div>
       </div>

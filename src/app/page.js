@@ -8,10 +8,10 @@ import Portfolio from "./Home/Portfolio";
 import Pricing from "./Home/Pricing";
 import Schedule from "./Home/Schedule";
 import Services from "./Home/Services";
-import Team from "./Home/Team";
 import Testimonial from "./Home/Testimonials";
 import WhyChoose from "./Home/WhyChoose";
 import Preloader from "@/components/Preloader";
+import Mentor from "./Home/Mentor";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
       <Services />
       <Testimonial />
       <Departments />
-      <Team />
+      <Mentor />
       <Pricing />
     </>
   );

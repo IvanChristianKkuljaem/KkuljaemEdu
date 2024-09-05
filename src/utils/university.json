@@ -62,7 +62,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 3,
@@ -93,7 +94,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 4,
@@ -124,7 +126,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 5,
@@ -155,7 +158,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 6,
@@ -186,7 +190,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 7,
@@ -217,7 +222,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 8,
@@ -248,7 +254,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 9,
@@ -279,7 +286,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 10,
@@ -310,7 +318,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 11,
@@ -341,7 +350,8 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   },
   {
     "id": 12,
@@ -372,6 +382,7 @@
         "Saturday: Closed",
         "Sunday: Closed"
       ]
-    }
+    },
+    "videos": "https://www.youtube.com/embed/Nr1xAcShRt8"
   }
 ]

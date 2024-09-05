@@ -1,13 +1,37 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import mentorJson from "@/utils/mentor.json";
+import mentorData from "@/utils/mentor.json";
 import Header from "@/components/Header/Header";
 import Preloader from "@/components/Preloader";
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
 
 export default function MentorDetails() {
-  const mentor = mentorJson[0];
+  const [mentor, setMentor] = useState(null);
+  const params = useParams();
+  const id = params.id;
+
+  useEffect(() => {
+    const fetchMentorDetails = () => {
+      try {
+        const mentorItem = mentorData.find((item) => item.id === parseInt(id));
+        setMentor(mentorItem);
+      } catch (error) {
+        console.error("Error fetching mentor details:", error);
+      }
+    };
+
+    if (id) {
+      fetchMentorDetails();
+    }
+  }, [id]);
+
+  if (!mentor) {
+    return <p>No Mentors Found</p>;
+  }
 
   return (
     <>
