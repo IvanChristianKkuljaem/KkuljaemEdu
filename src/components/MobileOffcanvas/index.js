@@ -179,7 +179,7 @@ export default function MobileOffcanvas() {
                       Pricing
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       className="menu-arrow"
                       // onClick={() => toggleSubMenu(1)}
@@ -188,7 +188,7 @@ export default function MobileOffcanvas() {
                     >
                       News
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       className="menu-arrow"

@@ -27,6 +27,7 @@ export default function HeaderInner() {
                 <Link
                   href="https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform"
                   className="btn"
+                  target="_blank"
                 >
                   Consult Now
                 </Link>
