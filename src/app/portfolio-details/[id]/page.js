@@ -1,13 +1,13 @@
-"use client";
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import Sliders from "./Sliders";
-import Header from "@/components/Header/Header";
-import Preloader from "@/components/Preloader";
-import portofolioData from "@/utils/portofolio.json";
-import { useParams } from "next/navigation";
+'use client';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import Sliders from './Sliders';
+import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
+import portofolioData from '@/utils/portofolio.json';
+import { useParams } from 'next/navigation';
 
 export default function PortfolioDetails() {
   const [portfolio, setPortfolio] = useState(null);
@@ -17,13 +17,11 @@ export default function PortfolioDetails() {
   useEffect(() => {
     const fetchPortfolioDetails = () => {
       try {
-        const portfolioItem = portofolioData.find(
-          (item) => item.id === parseInt(id)
-        );
+        const portfolioItem = portofolioData.find((item) => item.id === parseInt(id));
         setPortfolio(portfolioItem);
-        console.log("Fetched Portfolio:", portfolioItem);
+        console.log('Fetched Portfolio:', portfolioItem);
       } catch (error) {
-        console.error("Error fetching portfolio details:", error);
+        console.error('Error fetching portfolio details:', error);
       }
     };
 
@@ -37,12 +35,13 @@ export default function PortfolioDetails() {
   }
 
   const breadcrumbItems = [
-    { href: "/", text: "Home" },
-    { href: "/portfolio-details", text: "Event Details" },
+    { href: '/', text: 'Home' },
+    { href: '/portfolio-details', text: 'Event Details' },
   ];
 
   return (
     <>
+      <Preloader />
       <Header />
 
       <Breadcrumbs title="Event Details" breadcrumbItems={breadcrumbItems} />
@@ -55,8 +54,8 @@ export default function PortfolioDetails() {
                 <div className="body-text">
                   <h3
                     style={{
-                      display: "flex",
-                      justifyContent: "center",
+                      display: 'flex',
+                      justifyContent: 'center',
                     }}
                   >
                     {portfolio.title}
@@ -93,10 +92,7 @@ export default function PortfolioDetails() {
                       {portfolio.socialLinks?.map((link, index) => (
                         <li key={index}>
                           <Link href={link.href}>
-                            <i
-                              className={`fa ${link.iconClass}`}
-                              aria-hidden="true"
-                            ></i>
+                            <i className={`fa ${link.iconClass}`} aria-hidden="true"></i>
                           </Link>
                         </li>
                       ))}
