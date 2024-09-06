@@ -8,19 +8,19 @@ export default function Vission() {
       id: "item1",
       icon: "icofont-tick-mark",
       title: "Our Mission",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse.",
+      desc: "Memberikan Konsultasi Terbaik : Menyediakan layanan konsultasi pendidikan yang komprehensif dan terpercaya untuk siswa yang ingin melanjutkan studi di Korea Selatan, dengan pendekatan yang terpersonalisasi untuk memenuhi kebutuhan masing-masing individu.",
     },
     {
       id: "item2",
       icon: "icofont-tick-mark",
       title: "Our Planning",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse.",
+      desc: "Kkuljaem Education akan terus berkembang dan berkomitmen guna mewujudkan mimpi siswa melanjutkan pendidikan ke Korea Selatan.",
     },
     {
       id: "item3",
       icon: "icofont-tick-mark",
       title: "Our Vision",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Quis ipsum suspendisse.",
+      desc: "Menjadi pelopor utama dalam pendidikan global dengan memfasilitasi akses ke pendidikan berkualitas di Korea Selatan, dan memberdayakan siswa untuk mencapai potensi maksimal mereka dalam lingkungan internasional yang dinamis.",
     },
   ]);
 

@@ -8,25 +8,25 @@ export default function Mission() {
       id: "item1",
       icon: "icofont-business-man",
       title: "Professional Mentor",
-      desc: "Lorem ipsum dolor sit amet sit, consectetur adipiscing elit.",
+      desc: "Program mentoring beasiswa terbaik dengan mentor yang berpengalaman",
     },
     {
       id: "item2",
       icon: "icofont-businesswoman",
       title: "Best Counselor",
-      desc: "Lorem ipsum dolor sit amet sit, consectetur adipiscing elit.",
+      desc: "Program konsultasi dengan konsultan expert yang memiliki berbagai informasi eksklusif seputar pendidikan di Korea Selatan",
     },
     {
       id: "item3",
       icon: "icofont-university",
       title: "Dream University",
-      desc: "Lorem ipsum dolor sit amet sit, consectetur adipiscing elit.",
+      desc: "Kkuljaem Education bekerjasama dengan beberapa universitas ternama di Korea Selatan dan memiliki banyak pilihan universitas",
     },
     {
       id: "item4",
       icon: "icofont-sale-discount",
       title: "Package Deals",
-      desc: "Lorem ipsum dolor sit amet sit, consectetur adipiscing elit.",
+      desc: "Tersedia berbagai paket menarik dari program-program unggulan Kkuljaem Edu yang sesuai dengan kebutuhan",
     },
   ]);
 
@@ -40,8 +40,9 @@ export default function Mission() {
                 <span className="sub-title">Our Mission & Vision</span>
                 <h2>Better Information, Better Education</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Memiliki mentor profesional dan konselor berpengalaman,
+                  Kkuljaem Education menawarkan program unggulan dengan
+                  informasi eksklusif dan terpercaya mengenai Korea Selatan.
                 </p>
                 <ul>
                   {missionData.map((items) => (

@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "image": "/img/kkuljaem/hanni.jpg",
-    "name": "Pham Hanni",
+    "image": "/img/mentor/Monika.jpeg",
+    "name": "Monika",
     "designation": "Ditto",
     "biography": "Pham Hanni is a singer known for her incredible vocal talent. She has captivated audiences worldwide with her performances and dedication to her craft.",
     "education": [
@@ -29,8 +29,8 @@
   },
   {
     "id": 2,
-    "image": "/img/kkuljaem/haerin.jpg",
-    "name": "Kang Haerin",
+    "image": "/img/mentor/Natasya.jpeg",
+    "name": "Natasya",
     "designation": "Supernatural",
     "biography": "Kang Haerin has a strong presence in the industry, known for her unique style and charisma. She continues to inspire many with her work and dedication.",
     "education": [
@@ -56,8 +56,8 @@
   },
   {
     "id": 3,
-    "image": "/img/kkuljaem/minji.jpg",
-    "name": "Kim Minji",
+    "image": "/img/mentor/Rahmad.jpeg",
+    "name": "Rahmad",
     "designation": "Super Shy",
     "biography": "Kim Minji is celebrated for her artistic creativity and innovative approaches in the entertainment industry. She is a role model for many aspiring artists.",
     "education": [
@@ -83,8 +83,8 @@
   },
   {
     "id": 4,
-    "image": "/img/kkuljaem/danielle.jpg",
-    "name": "Danielle Marsh",
+    "image": "/img/mentor/Stephanie.jpeg",
+    "name": "Stephanie",
     "designation": "How Sweet",
     "biography": "Danielle Marsh is a versatile performer with a deep passion for her craft. Her journey in the industry has been marked by numerous accolades and achievements.",
     "education": [
@@ -110,8 +110,8 @@
   },
   {
     "id": 5,
-    "image": "/img/kkuljaem/hyein.jpg",
-    "name": "Lee Hyein",
+    "image": "/img/mentor/Yeshaya.jpeg",
+    "name": "Yeshaya",
     "designation": "Hype Boy",
     "biography": "Lee Hyein has made significant contributions to the entertainment industry, known for his dynamic performances and dedication to his work.",
     "education": [
@@ -133,33 +133,6 @@
     "workingHours": [
       { "day": "Monday - Friday", "hours": "9.00-17.00" },
       { "day": "Saturday", "hours": "10.00-15.00" }
-    ]
-  },
-  {
-    "id": 6,
-    "image": "/img/kkuljaem/tooki.jpg",
-    "name": "Tokki",
-    "designation": "Attention",
-    "biography": "Tokki is a rising star in the industry, admired for his energy and unique style. His contributions have garnered attention and praise from peers and fans alike.",
-    "education": [
-      "Bachelor of Arts in Performing Arts at University of Seoul (2017)",
-      "Diploma in Music Production at Seoul Music Academy (2013)"
-    ],
-    "contactInfo": {
-      "phone": "+628 7818 140367",
-      "email": "tokki@kkuljaemkorean.com",
-      "address": "Gwangjin District, Seoul, South Korea"
-    },
-    "socialLinks": {
-      "facebook": "#",
-      "googlePlus": "#",
-      "twitter": "#",
-      "vimeo": "#",
-      "pinterest": "#"
-    },
-    "workingHours": [
-      { "day": "Monday - Friday", "hours": "10.00-19.00" },
-      { "day": "Saturday", "hours": "11.00-17.00" }
     ]
   }
 ]

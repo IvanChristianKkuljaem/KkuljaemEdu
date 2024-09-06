@@ -9,8 +9,8 @@ export default function WhyChoose() {
         <div className="row">
           <div className="col-lg-12">
             <SectionHead
-              title="We Offer Different Services To Help You Achieve Your Dream University"
-              desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
+              title="We Offer A Variety Of Services To Help You Reach Your Dream University"
+              desc="Kkuljaem Education menawarkan program Konsultasi dan Mentoring oleh Konsultan dan Mentor yang expert serta berpengalaman. Kkuljaem Education juga menyediakan program pengurusan dokumen lengkap."
             />
           </div>
         </div>

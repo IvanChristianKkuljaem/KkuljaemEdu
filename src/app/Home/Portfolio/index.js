@@ -1,5 +1,5 @@
-import SectionHead from '@/components/SectionHead';
-import Sliders from './Sliders';
+import SectionHead from "@/components/SectionHead";
+import Sliders from "./Sliders";
 
 export default function Portfolio() {
   return (
@@ -7,7 +7,10 @@ export default function Portfolio() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <SectionHead title="We Always Make Events for Education" desc="These are our past educational events for students" />
+            <SectionHead
+              title="We Make Events To Share Exclusive Information On Education In South Korea"
+              desc="These are our past educational events for students"
+            />
           </div>
         </div>
       </div>

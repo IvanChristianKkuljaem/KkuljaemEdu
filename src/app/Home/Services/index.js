@@ -20,7 +20,7 @@ export default function Services() {
           <div className="col-lg-12">
             <SectionHead
               title="We Offer Six Different Services for Scholarship Preparation"
-              desc="Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts"
+              desc="Program-program unggulan untuk membantu para siswa mempersiapkan diri dalam meraih beasiswa ke Korea Selatan"
             />
           </div>
         </div>

@@ -1,32 +1,38 @@
 [
   {
     "id": "slider1",
-    "img": "/img/kkuljaem/Hanni-Circle.png",
-    "desc": "Stay in the middle. Like you a little. Don't wanna riddle",
-    "name": "Pham Hanni"
+    "img": "/img/testimonial/Thalia.png",
+    "desc": "Kkuljaem Edu benar-benar membantu selama persiapan untuk ke Korea Selatan, Kkuljaem Edu juga sangat membantu untuk settle di Korea Selatan",
+    "name": "Thalia"
   },
   {
     "id": "slider2",
-    "img": "/img/kkuljaem/Haerin-Circle.png",
-    "desc": "We can go wherever you like. Baby say the words then i'm down",
-    "name": "Kang Haerin"
+    "img": "/img/testimonial/Aurora.png",
+    "desc": "Kkuljaem Edu punya informasi yang eksklusif dan valid seputar beasiswa dan pendidikan di Korea Selatan!",
+    "name": "Aurora Berliana"
   },
   {
     "id": "slider3",
-    "img": "/img/kkuljaem/Danielle-Circle.png",
-    "desc": "Cause i'm not gonna be the one who get hurt",
-    "name": "Danielle Marsh"
+    "img": "/img/testimonial/Carissa.png",
+    "desc": "Kkuljaem edu memiliki konsultan yang sangat profesional dan berpengalaman, serta sangat membimbing dan mengarahkan siswanya",
+    "name": "Carissa"
   },
   {
-    "id": "slider4",
-    "img": "/img/kkuljaem/Minji-Circle.png",
-    "desc": "And don't you know how sweet it taste. How sweet it taste",
-    "name": "Kim Minji"
+    "id": "slider1",
+    "img": "/img/testimonial/Thalia.png",
+    "desc": "Kkuljaem Edu benar-benar membantu selama persiapan untuk ke Korea Selatan, Kkuljaem Edu juga sangat membantu untuk settle di Korea Selatan",
+    "name": "Thalia"
   },
   {
-    "id": "slider5",
-    "img": "/img/kkuljaem/Hyein-Circle.png",
-    "desc": "I'm super shy super shy but wait a minute while I make you mine",
-    "name": "Lee Hyein"
+    "id": "slider2",
+    "img": "/img/testimonial/Aurora.png",
+    "desc": "Kkuljaem Edu punya informasi yang eksklusif dan valid seputar beasiswa dan pendidikan di Korea Selatan!",
+    "name": "Aurora Berliana"
+  },
+  {
+    "id": "slider3",
+    "img": "/img/testimonial/Carissa.png",
+    "desc": "Kkuljaem edu memiliki konsultan yang sangat profesional dan berpengalaman, serta sangat membimbing dan mengarahkan siswanya",
+    "name": "Carissa"
   }
 ]

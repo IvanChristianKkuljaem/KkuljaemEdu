@@ -6,7 +6,7 @@ import mentorJson from "@/utils/mentor.json";
 import SectionImg from "../../../../public/img/section-img2.png";
 
 export default function Mentor() {
-  const mentorsToShow = mentorJson.slice(0, 3);
+  const mentorsToShow = mentorJson.slice(2, 5);
 
   return (
     <section id="team" className="team section overlay">

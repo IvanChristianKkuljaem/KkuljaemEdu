@@ -31,10 +31,10 @@
     "id": "slider3",
     "bgImg": "/img/blog/Slider3.jpg",
     "title": "We Provide <span>Consultation</span> Services <br/> That You Can <span>Trust!</span>",
-    "subTitle": "Kami telah berhasil membantu banyak siswa untuk berangkat dan belajar di Korea Selatan, dan terus mewujudkan komitmen kami untuk mewujudkan mimpi siswa untuk studi ke Korea Selatan.",
+    "subTitle": "Kkuljaem Education telah berhasil membantu banyak siswa untuk berangkat dan melanjutkan pendidikan di Korea Selatan. Kkuljaem Education akan terus berkomitmen untuk mewujudkan mimpi siswa dalam melanjutkan studi ke Korea Selatan.",
     "button": {
       "text": "Get Consultation",
-      "link": "/appoinment"
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScU7cRBQOJN5epKWXc82Wjngm0G1MRVkjarUgalQvI_m8eqwA/viewform"
     },
     "button2": {
       "text": "Contact Now",
