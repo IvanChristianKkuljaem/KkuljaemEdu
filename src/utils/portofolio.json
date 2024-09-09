@@ -6,7 +6,7 @@
     "date": "April 20, 2024",
     "partner": "Chingu Project",
     "location": "Kkuljaem Office",
-    "image": "/img/event/View1.gif",
+    "image": "/img/event/event1.jpg",
     "description": [
       "Lorem ipsum dolor sit amet...",
       "Ncididunt ut labore et dolore magna aliqua...",
@@ -39,7 +39,7 @@
       "More details...",
       "Even more details..."
     ],
-    "image": "/img/event/View2.gif",
+    "image": "/img/event/event2.jpg",
     "sliders": [
       { "sliders_id": 1, "img": "/img/event/event1.jpg" },
       { "sliders_id": 2, "img": "/img/event/event2.jpg" },
@@ -62,7 +62,7 @@
     "date": "April 20, 2024",
     "partner": "Chingu Project",
     "location": "Kkuljaem Office",
-    "image": "/img/event/View3.gif",
+    "image": "/img/event/event3.jpg",
     "description": [
       "Lorem ipsum dolor sit amet...",
       "Ncididunt ut labore et dolore magna aliqua...",
@@ -95,7 +95,7 @@
       "More details...",
       "Even more details..."
     ],
-    "image": "/img/event/View4.gif",
+    "image": "/img/event/event4.jpg",
     "sliders": [
       { "sliders_id": 1, "img": "/img/event/event1.jpg" },
       { "sliders_id": 2, "img": "/img/event/event2.jpg" },
@@ -151,7 +151,7 @@
       "More details...",
       "Even more details..."
     ],
-    "image": "/img/event/View2.gif",
+    "image": "/img/event/event6.jpg",
     "sliders": [
       { "sliders_id": 1, "img": "/img/event/event1.jpg" },
       { "sliders_id": 2, "img": "/img/event/event2.jpg" },

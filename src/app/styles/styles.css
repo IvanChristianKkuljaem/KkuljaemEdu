@@ -3733,6 +3733,7 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
+  min-height: 350px;
 }
 .single-vision-box .icon {
   margin-bottom: 20px;
